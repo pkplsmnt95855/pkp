@@ -1,0 +1,1 @@
+<p>Thank you for signing up with Resume Market. Your account is currently inactive. We have sent you an email to activate your account.</p>

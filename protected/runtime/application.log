@@ -1,0 +1,946 @@
+2014/05/21 16:56:26 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in D:\VertrigoServ\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\VertrigoServ\www\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 D:\VertrigoServ\www\submit\protected\controllers\SiteController.php(32): CController->render('index')
+#2 D:\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#7 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 D:\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\VertrigoServ\www\submit\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/submit/
+---
+2014/05/21 16:56:45 [error] [php] Undefined variable: job (D:\VertrigoServ\www\submit\protected\views\site\index.php:37)
+Stack trace:
+#0 D:\VertrigoServ\www\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 D:\VertrigoServ\www\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 D:\VertrigoServ\www\submit\protected\controllers\SiteController.php(32): SiteController->render()
+#3 D:\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 D:\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\VertrigoServ\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\VertrigoServ\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\VertrigoServ\www\submit\index.php(13): CWebApplication->run()
+REQUEST_URI=/submit/
+in D:\VertrigoServ\www\submit\protected\views\site\index.php (37)
+in D:\VertrigoServ\www\submit\protected\controllers\SiteController.php (32)
+in D:\VertrigoServ\www\submit\index.php (13)
+2014/05/21 16:59:49 [error] [php] Undefined variable: job (D:\VertrigoServ\www\submit\protected\views\site\index.php:37)
+Stack trace:
+#0 D:\VertrigoServ\www\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 D:\VertrigoServ\www\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 D:\VertrigoServ\www\submit\protected\controllers\SiteController.php(32): SiteController->render()
+#3 D:\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 D:\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\VertrigoServ\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\VertrigoServ\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\VertrigoServ\www\submit\index.php(13): CWebApplication->run()
+REQUEST_URI=/submit/
+in D:\VertrigoServ\www\submit\protected\views\site\index.php (37)
+in D:\VertrigoServ\www\submit\protected\controllers\SiteController.php (32)
+in D:\VertrigoServ\www\submit\index.php (13)
+2014/05/21 17:00:27 [error] [php] include(Employer.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\VertrigoServ\www\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 D:\VertrigoServ\www\submit\protected\views\site\index.php(52): spl_autoload_call()
+#1 D:\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require()
+#2 D:\VertrigoServ\www\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 D:\VertrigoServ\www\yii\framework\web\CController.php(869): SiteController->renderFile()
+#4 D:\VertrigoServ\www\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#5 D:\VertrigoServ\www\submit\protected\controllers\SiteController.php(35): SiteController->render()
+#6 D:\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 D:\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 D:\VertrigoServ\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#9 D:\VertrigoServ\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#11 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\VertrigoServ\www\submit\index.php(13): CWebApplication->run()
+REQUEST_URI=/submit/
+in D:\VertrigoServ\www\submit\protected\views\site\index.php (52)
+in D:\VertrigoServ\www\submit\protected\controllers\SiteController.php (35)
+in D:\VertrigoServ\www\submit\index.php (13)
+2014/05/21 17:01:45 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.commons" is not defined.' in D:\VertrigoServ\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\VertrigoServ\www\yii\framework\base\CModule.php(105): CComponent->__get('commons')
+#1 D:\VertrigoServ\www\submit\protected\views\site\index.php(76): CModule->__get('commons')
+#2 D:\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require('D:\VertrigoServ...')
+#3 D:\VertrigoServ\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\VertrigoServ...', Array, true)
+#4 D:\VertrigoServ\www\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\VertrigoServ...', Array, true)
+#5 D:\VertrigoServ\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 D:\VertrigoServ\www\submit\protected\controllers\SiteController.php(35): CController->render('index', Array)
+#7 D:\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 D:\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 D:\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\VertrigoServ\www\submit\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/submit/
+---
+2014/05/21 17:22:05 [error] [php] Undefined variable: job (D:\VertrigoServ\www\submit\protected\views\job\_form.php:39)
+Stack trace:
+#0 D:\VertrigoServ\www\yii\framework\web\CController.php(869): JobController->renderFile()
+#1 D:\VertrigoServ\www\submit\protected\views\job\create.php(18): JobController->renderPartial()
+#2 D:\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require()
+#3 D:\VertrigoServ\www\yii\framework\web\CBaseController.php(95): JobController->renderInternal()
+#4 D:\VertrigoServ\www\yii\framework\web\CController.php(869): JobController->renderFile()
+#5 D:\VertrigoServ\www\yii\framework\web\CController.php(782): JobController->renderPartial()
+#6 D:\VertrigoServ\www\submit\protected\controllers\JobController.php(79): JobController->render()
+#7 D:\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): JobController->actionCreate()
+#8 D:\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 D:\VertrigoServ\www\yii\framework\web\filters\CFilterChain.php(133): JobController->runAction()
+#10 D:\VertrigoServ\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\VertrigoServ\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\VertrigoServ\www\yii\framework\web\filters\CInlineFilter.php(58): JobController->filterAccessControl()
+#13 D:\VertrigoServ\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\VertrigoServ\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\VertrigoServ\www\yii\framework\web\CController.php(265): JobController->runActionWithFilters()
+#16 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): JobController->run()
+#17 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\VertrigoServ\www\submit\index.php(13): CWebApplication->run()
+REQUEST_URI=/submit/index.php?r=job/create
+in D:\VertrigoServ\www\submit\protected\views\job\_form.php (39)
+in D:\VertrigoServ\www\submit\protected\views\job\create.php (18)
+in D:\VertrigoServ\www\submit\protected\controllers\JobController.php (79)
+2014/05/21 17:22:23 [error] [php] Undefined variable: job (D:\VertrigoServ\www\submit\protected\views\job\_form.php:41)
+Stack trace:
+#0 D:\VertrigoServ\www\yii\framework\web\CController.php(869): JobController->renderFile()
+#1 D:\VertrigoServ\www\submit\protected\views\job\create.php(18): JobController->renderPartial()
+#2 D:\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require()
+#3 D:\VertrigoServ\www\yii\framework\web\CBaseController.php(95): JobController->renderInternal()
+#4 D:\VertrigoServ\www\yii\framework\web\CController.php(869): JobController->renderFile()
+#5 D:\VertrigoServ\www\yii\framework\web\CController.php(782): JobController->renderPartial()
+#6 D:\VertrigoServ\www\submit\protected\controllers\JobController.php(79): JobController->render()
+#7 D:\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): JobController->actionCreate()
+#8 D:\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 D:\VertrigoServ\www\yii\framework\web\filters\CFilterChain.php(133): JobController->runAction()
+#10 D:\VertrigoServ\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\VertrigoServ\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\VertrigoServ\www\yii\framework\web\filters\CInlineFilter.php(58): JobController->filterAccessControl()
+#13 D:\VertrigoServ\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\VertrigoServ\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\VertrigoServ\www\yii\framework\web\CController.php(265): JobController->runActionWithFilters()
+#16 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): JobController->run()
+#17 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\VertrigoServ\www\submit\index.php(13): CWebApplication->run()
+REQUEST_URI=/submit/index.php?r=job/create
+in D:\VertrigoServ\www\submit\protected\views\job\_form.php (41)
+in D:\VertrigoServ\www\submit\protected\views\job\create.php (18)
+in D:\VertrigoServ\www\submit\protected\controllers\JobController.php (79)
+2014/05/21 17:24:30 [error] [php] Undefined variable: job (D:\VertrigoServ\www\submit\protected\views\job\_form.php:59)
+Stack trace:
+#0 D:\VertrigoServ\www\yii\framework\web\CController.php(869): JobController->renderFile()
+#1 D:\VertrigoServ\www\submit\protected\views\job\create.php(18): JobController->renderPartial()
+#2 D:\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require()
+#3 D:\VertrigoServ\www\yii\framework\web\CBaseController.php(95): JobController->renderInternal()
+#4 D:\VertrigoServ\www\yii\framework\web\CController.php(869): JobController->renderFile()
+#5 D:\VertrigoServ\www\yii\framework\web\CController.php(782): JobController->renderPartial()
+#6 D:\VertrigoServ\www\submit\protected\controllers\JobController.php(79): JobController->render()
+#7 D:\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): JobController->actionCreate()
+#8 D:\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 D:\VertrigoServ\www\yii\framework\web\filters\CFilterChain.php(133): JobController->runAction()
+#10 D:\VertrigoServ\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\VertrigoServ\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\VertrigoServ\www\yii\framework\web\filters\CInlineFilter.php(58): JobController->filterAccessControl()
+#13 D:\VertrigoServ\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\VertrigoServ\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\VertrigoServ\www\yii\framework\web\CController.php(265): JobController->runActionWithFilters()
+#16 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): JobController->run()
+#17 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\VertrigoServ\www\submit\index.php(13): CWebApplication->run()
+REQUEST_URI=/submit/index.php?r=job/create
+in D:\VertrigoServ\www\submit\protected\views\job\_form.php (59)
+in D:\VertrigoServ\www\submit\protected\views\job\create.php (18)
+in D:\VertrigoServ\www\submit\protected\controllers\JobController.php (79)
+2014/05/21 17:26:25 [error] [php] Undefined variable: job (D:\VertrigoServ\www\submit\protected\views\job\_form.php:71)
+Stack trace:
+#0 D:\VertrigoServ\www\yii\framework\web\CController.php(869): JobController->renderFile()
+#1 D:\VertrigoServ\www\submit\protected\views\job\create.php(18): JobController->renderPartial()
+#2 D:\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require()
+#3 D:\VertrigoServ\www\yii\framework\web\CBaseController.php(95): JobController->renderInternal()
+#4 D:\VertrigoServ\www\yii\framework\web\CController.php(869): JobController->renderFile()
+#5 D:\VertrigoServ\www\yii\framework\web\CController.php(782): JobController->renderPartial()
+#6 D:\VertrigoServ\www\submit\protected\controllers\JobController.php(79): JobController->render()
+#7 D:\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): JobController->actionCreate()
+#8 D:\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 D:\VertrigoServ\www\yii\framework\web\filters\CFilterChain.php(133): JobController->runAction()
+#10 D:\VertrigoServ\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\VertrigoServ\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\VertrigoServ\www\yii\framework\web\filters\CInlineFilter.php(58): JobController->filterAccessControl()
+#13 D:\VertrigoServ\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\VertrigoServ\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\VertrigoServ\www\yii\framework\web\CController.php(265): JobController->runActionWithFilters()
+#16 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): JobController->run()
+#17 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\VertrigoServ\www\submit\index.php(13): CWebApplication->run()
+REQUEST_URI=/submit/index.php?r=job/create
+in D:\VertrigoServ\www\submit\protected\views\job\_form.php (71)
+in D:\VertrigoServ\www\submit\protected\views\job\create.php (18)
+in D:\VertrigoServ\www\submit\protected\controllers\JobController.php (79)
+2014/05/21 17:28:21 [error] [php] Undefined variable: job (D:\VertrigoServ\www\submit\protected\views\job\_form.php:77)
+Stack trace:
+#0 D:\VertrigoServ\www\yii\framework\web\CController.php(869): JobController->renderFile()
+#1 D:\VertrigoServ\www\submit\protected\views\job\create.php(18): JobController->renderPartial()
+#2 D:\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require()
+#3 D:\VertrigoServ\www\yii\framework\web\CBaseController.php(95): JobController->renderInternal()
+#4 D:\VertrigoServ\www\yii\framework\web\CController.php(869): JobController->renderFile()
+#5 D:\VertrigoServ\www\yii\framework\web\CController.php(782): JobController->renderPartial()
+#6 D:\VertrigoServ\www\submit\protected\controllers\JobController.php(79): JobController->render()
+#7 D:\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): JobController->actionCreate()
+#8 D:\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 D:\VertrigoServ\www\yii\framework\web\filters\CFilterChain.php(133): JobController->runAction()
+#10 D:\VertrigoServ\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\VertrigoServ\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 D:\VertrigoServ\www\yii\framework\web\filters\CInlineFilter.php(58): JobController->filterAccessControl()
+#13 D:\VertrigoServ\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 D:\VertrigoServ\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\VertrigoServ\www\yii\framework\web\CController.php(265): JobController->runActionWithFilters()
+#16 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): JobController->run()
+#17 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 D:\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\VertrigoServ\www\submit\index.php(13): CWebApplication->run()
+REQUEST_URI=/submit/index.php?r=job/create
+in D:\VertrigoServ\www\submit\protected\views\job\_form.php (77)
+in D:\VertrigoServ\www\submit\protected\views\job\create.php (18)
+in D:\VertrigoServ\www\submit\protected\controllers\JobController.php (79)
+2014/05/21 17:46:20 [error] [php] Undefined variable: model (D:\VertrigoServ\www\submit\protected\views\site\index.php:33)
+Stack trace:
+#0 D:\VertrigoServ\www\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 D:\VertrigoServ\www\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 D:\VertrigoServ\www\submit\protected\controllers\SiteController.php(35): SiteController->render()
+#3 D:\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 D:\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\VertrigoServ\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\VertrigoServ\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\VertrigoServ\www\submit\index.php(13): CWebApplication->run()
+REQUEST_URI=/submit/
+in D:\VertrigoServ\www\submit\protected\views\site\index.php (33)
+in D:\VertrigoServ\www\submit\protected\controllers\SiteController.php (35)
+in D:\VertrigoServ\www\submit\index.php (13)
+2014/05/21 17:46:31 [error] [php] Undefined variable: model (D:\VertrigoServ\www\submit\protected\views\site\index.php:33)
+Stack trace:
+#0 D:\VertrigoServ\www\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 D:\VertrigoServ\www\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 D:\VertrigoServ\www\submit\protected\controllers\SiteController.php(35): SiteController->render()
+#3 D:\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 D:\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\VertrigoServ\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\VertrigoServ\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\VertrigoServ\www\submit\index.php(13): CWebApplication->run()
+REQUEST_URI=/submit/
+in D:\VertrigoServ\www\submit\protected\views\site\index.php (33)
+in D:\VertrigoServ\www\submit\protected\controllers\SiteController.php (35)
+in D:\VertrigoServ\www\submit\index.php (13)
+2014/05/21 17:52:49 [error] [php] Undefined variable: model (D:\VertrigoServ\www\submit\protected\views\site\index.php:23)
+Stack trace:
+#0 D:\VertrigoServ\www\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 D:\VertrigoServ\www\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 D:\VertrigoServ\www\submit\protected\controllers\SiteController.php(35): SiteController->render()
+#3 D:\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 D:\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\VertrigoServ\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\VertrigoServ\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\VertrigoServ\www\submit\index.php(13): CWebApplication->run()
+REQUEST_URI=/submit/
+in D:\VertrigoServ\www\submit\protected\views\site\index.php (23)
+in D:\VertrigoServ\www\submit\protected\controllers\SiteController.php (35)
+in D:\VertrigoServ\www\submit\index.php (13)
+2014/07/05 17:11:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gii".' in D:\VertrigoServ\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\VertrigoServ\www\yii\framework\web\CController.php(270): CController->missingAction('gii')
+#1 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('gii')
+#2 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/gii')
+#3 D:\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\VertrigoServ\www\submit\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/submit/?r=site/gii
+---
+2014/07/05 17:12:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gii".' in D:\VertrigoServ\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\VertrigoServ\www\yii\framework\web\CController.php(270): CController->missingAction('gii')
+#1 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('gii')
+#2 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/gii')
+#3 D:\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\VertrigoServ\www\submit\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/submit/?r=site/gii
+---
+2014/07/05 17:57:57 [error] [exception.CException] exception 'CException' with message 'Property "Job.status" is not defined.' in D:\VertrigoServ\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\VertrigoServ\www\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('status', 'New')
+#1 D:\VertrigoServ\www\submit\protected\controllers\SiteController.php(85): CActiveRecord->__set('status', 'New')
+#2 D:\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRetrieveJobs()
+#3 D:\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('retrievejobs')
+#7 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/retrievejo...')
+#8 D:\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\VertrigoServ\www\submit\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/submit/index.php?r=site/retrievejobs
+---
+2014/07/05 17:58:22 [error] [exception.CException] exception 'CException' with message 'Property "Job.status" is not defined.' in D:\VertrigoServ\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\VertrigoServ\www\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('status', 'New')
+#1 D:\VertrigoServ\www\submit\protected\controllers\SiteController.php(85): CActiveRecord->__set('status', 'New')
+#2 D:\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRetrieveJobs()
+#3 D:\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('retrievejobs')
+#7 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/retrievejo...')
+#8 D:\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\VertrigoServ\www\submit\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/submit/index.php?r=site/retrievejobs
+---
+2014/07/06 06:57:50 [error] [php] Undefined variable: dataProvider (D:\VertrigoServ\www\submit\protected\views\site\alljobs.php:6)
+Stack trace:
+#0 D:\VertrigoServ\www\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 D:\VertrigoServ\www\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 D:\VertrigoServ\www\submit\protected\controllers\SiteController.php(122): SiteController->render()
+#3 D:\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionAllJobs()
+#4 D:\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\VertrigoServ\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\VertrigoServ\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\VertrigoServ\www\submit\index.php(13): CWebApplication->run()
+REQUEST_URI=/submit/index.php?r=site/alljobs
+in D:\VertrigoServ\www\submit\protected\views\site\alljobs.php (6)
+in D:\VertrigoServ\www\submit\protected\controllers\SiteController.php (122)
+in D:\VertrigoServ\www\submit\index.php (13)
+2014/07/06 07:00:09 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `job` `t` WHERE status=1.
+in D:\VertrigoServ\www\submit\protected\views\site\alljobs.php (21)
+in D:\VertrigoServ\www\submit\protected\controllers\SiteController.php (122)
+in D:\VertrigoServ\www\submit\index.php (13)
+2014/07/06 07:00:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `job` `t` WHERE status=1' in D:\VertrigoServ\www\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\VertrigoServ\www\yii\framework\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 D:\VertrigoServ\www\yii\framework\db\ar\CActiveRecord.php(1601): CDbCommand->queryScalar()
+#2 D:\VertrigoServ\www\yii\framework\web\CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 D:\VertrigoServ\www\yii\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 D:\VertrigoServ\www\yii\framework\web\CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 D:\VertrigoServ\www\yii\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 D:\VertrigoServ\www\yii\framework\zii\widgets\CBaseListView.php(111): CDataProvider->getData()
+#7 D:\VertrigoServ\www\yii\framework\zii\widgets\grid\CGridView.php(339): CBaseListView->init()
+#8 D:\VertrigoServ\www\yii\framework\web\CBaseController.php(147): CGridView->init()
+#9 D:\VertrigoServ\www\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#10 D:\VertrigoServ\www\submit\protected\views\site\alljobs.php(21): CBaseController->widget('zii.widgets.gri...', Array)
+#11 D:\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require('D:\VertrigoServ...')
+#12 D:\VertrigoServ\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\VertrigoServ...', Array, true)
+#13 D:\VertrigoServ\www\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\VertrigoServ...', Array, true)
+#14 D:\VertrigoServ\www\yii\framework\web\CController.php(782): CController->renderPartial('alljobs', Array, true)
+#15 D:\VertrigoServ\www\submit\protected\controllers\SiteController.php(122): CController->render('alljobs', Array)
+#16 D:\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionAllJobs()
+#17 D:\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 D:\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 D:\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('alljobs')
+#21 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/alljobs')
+#22 D:\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 D:\VertrigoServ\www\submit\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/submit/index.php?r=site/alljobs
+---
+2014/07/06 07:14:04 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.requset" is not defined.' in D:\VertrigoServ\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\VertrigoServ\www\yii\framework\base\CModule.php(105): CComponent->__get('requset')
+#1 D:\VertrigoServ\www\submit\protected\views\site\alljobs.php(21): CModule->__get('requset')
+#2 D:\VertrigoServ\www\yii\framework\web\CBaseController.php(126): require('D:\VertrigoServ...')
+#3 D:\VertrigoServ\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\VertrigoServ...', Array, true)
+#4 D:\VertrigoServ\www\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\VertrigoServ...', Array, true)
+#5 D:\VertrigoServ\www\yii\framework\web\CController.php(782): CController->renderPartial('alljobs', Array, true)
+#6 D:\VertrigoServ\www\submit\protected\controllers\SiteController.php(122): CController->render('alljobs', Array)
+#7 D:\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionAllJobs()
+#8 D:\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\VertrigoServ\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\VertrigoServ\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('alljobs')
+#12 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/alljobs')
+#13 D:\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\VertrigoServ\www\submit\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/submit/index.php?r=site/alljobs
+---
+2014/07/06 07:26:50 [error] [php] Undefined variable: job_details (D:\VertrigoServ\www\submit\protected\views\site\job.php:6)
+Stack trace:
+#0 D:\VertrigoServ\www\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 D:\VertrigoServ\www\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 D:\VertrigoServ\www\submit\protected\controllers\SiteController.php(129): SiteController->render()
+#3 unknown(0): SiteController->actionJob()
+#4 D:\VertrigoServ\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 D:\VertrigoServ\www\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 D:\VertrigoServ\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\VertrigoServ\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#8 D:\VertrigoServ\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#10 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\VertrigoServ\www\submit\index.php(13): CWebApplication->run()
+REQUEST_URI=/submit/index.php?r=site/job/id/19
+in D:\VertrigoServ\www\submit\protected\views\site\job.php (6)
+in D:\VertrigoServ\www\submit\protected\controllers\SiteController.php (129)
+in D:\VertrigoServ\www\submit\index.php (13)
+2014/07/06 06:08:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gii".' in D:\VertrigoServ\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\VertrigoServ\www\yii\framework\web\CController.php(270): CController->missingAction('gii')
+#1 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('gii')
+#2 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/gii')
+#3 D:\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\VertrigoServ\www\submit\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/submit/?r=site/gii
+---
+2014/07/06 06:09:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gii".' in D:\VertrigoServ\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\VertrigoServ\www\yii\framework\web\CController.php(270): CController->missingAction('gii')
+#1 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(282): CController->run('gii')
+#2 D:\VertrigoServ\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/gii')
+#3 D:\VertrigoServ\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\VertrigoServ\www\submit\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/submit/index.php?r=site/gii
+---
+2015/01/04 18:36:15 [error] [php] include(Job.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\VertrigoServ\www\resumemarket\yii\YiiBase.php:427)
+Stack trace:
+#0 D:\VertrigoServ\www\resumemarket\protected\controllers\SiteController.php(34): spl_autoload_call()
+#1 D:\VertrigoServ\www\resumemarket\yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(286): SiteController->runAction()
+#4 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(265): SiteController->runActionWithFilters()
+#5 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(282): SiteController->run()
+#6 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\VertrigoServ\www\resumemarket\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\VertrigoServ\www\resumemarket\index.php(13): CWebApplication->run()
+REQUEST_URI=/resumemarket/
+in D:\VertrigoServ\www\resumemarket\protected\controllers\SiteController.php (34)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/05 18:37:15 [error] [php] include(Job.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\VertrigoServ\www\resumemarket\yii\YiiBase.php:427)
+Stack trace:
+#0 D:\VertrigoServ\www\resumemarket\protected\controllers\SiteController.php(31): spl_autoload_call()
+#1 D:\VertrigoServ\www\resumemarket\yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(286): SiteController->runAction()
+#4 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(265): SiteController->runActionWithFilters()
+#5 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(282): SiteController->run()
+#6 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\VertrigoServ\www\resumemarket\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\VertrigoServ\www\resumemarket\index.php(13): CWebApplication->run()
+REQUEST_URI=/resumemarket/login
+in D:\VertrigoServ\www\resumemarket\protected\controllers\SiteController.php (31)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/05 18:51:18 [error] [php] include(Job.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\VertrigoServ\www\resumemarket\yii\YiiBase.php:427)
+Stack trace:
+#0 D:\VertrigoServ\www\resumemarket\protected\controllers\SiteController.php(31): spl_autoload_call()
+#1 D:\VertrigoServ\www\resumemarket\yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(286): SiteController->runAction()
+#4 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(265): SiteController->runActionWithFilters()
+#5 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(282): SiteController->run()
+#6 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\VertrigoServ\www\resumemarket\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\VertrigoServ\www\resumemarket\index.php(13): CWebApplication->run()
+REQUEST_URI=/resumemarket/gii
+in D:\VertrigoServ\www\resumemarket\protected\controllers\SiteController.php (31)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/05 18:51:56 [error] [php] include(Job.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\VertrigoServ\www\resumemarket\yii\YiiBase.php:427)
+Stack trace:
+#0 D:\VertrigoServ\www\resumemarket\protected\controllers\SiteController.php(31): spl_autoload_call()
+#1 D:\VertrigoServ\www\resumemarket\yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(286): SiteController->runAction()
+#4 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(265): SiteController->runActionWithFilters()
+#5 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(282): SiteController->run()
+#6 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\VertrigoServ\www\resumemarket\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\VertrigoServ\www\resumemarket\index.php(13): CWebApplication->run()
+REQUEST_URI=/resumemarket/gii
+in D:\VertrigoServ\www\resumemarket\protected\controllers\SiteController.php (31)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/05 18:55:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'job'' in D:\VertrigoServ\www\resumemarket\yii\db\CDbConnection.php:382
+Stack trace:
+#0 D:\VertrigoServ\www\resumemarket\yii\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\VertrigoServ\www\resumemarket\yii\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\VertrigoServ\www\resumemarket\yii\base\CModule.php(387): CDbConnection->init()
+#3 D:\VertrigoServ\www\resumemarket\yii\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\VertrigoServ\www\resumemarket\yii\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 D:\VertrigoServ\www\resumemarket\yii\web\CFormModel.php(39): ModelCode->init()
+#6 D:\VertrigoServ\www\resumemarket\yii\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\VertrigoServ\www\resumemarket\yii\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\VertrigoServ\www\resumemarket\yii\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(282): CController->run('index')
+#13 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 D:\VertrigoServ\www\resumemarket\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\VertrigoServ\www\resumemarket\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/resumemarket/gii/model/index
+HTTP_REFERER=http://localhost/resumemarket/gii/default/index
+---
+2015/01/05 19:20:28 [error] [exception.CException] exception 'CException' with message 'Property "CUniqueValidator.class" is not defined.' in D:\VertrigoServ\www\resumemarket\yii\base\CComponent.php:173
+Stack trace:
+#0 D:\VertrigoServ\www\resumemarket\yii\validators\CValidator.php(189): CComponent->__set('class', 'User')
+#1 D:\VertrigoServ\www\resumemarket\yii\base\CModel.php(287): CValidator::createValidator('unique', Object(RegistrationForm), 'email', Array)
+#2 D:\VertrigoServ\www\resumemarket\yii\base\CModel.php(260): CModel->createValidators()
+#3 D:\VertrigoServ\www\resumemarket\yii\base\CModel.php(304): CModel->getValidators('email')
+#4 D:\VertrigoServ\www\resumemarket\yii\web\helpers\CHtml.php(1414): CModel->isAttributeRequired('email')
+#5 D:\VertrigoServ\www\resumemarket\yii\web\widgets\CActiveForm.php(597): CHtml::activeLabelEx(Object(RegistrationForm), 'email', Array)
+#6 D:\VertrigoServ\www\resumemarket\protected\views\login\login.php(20): CActiveForm->labelEx(Object(RegistrationForm), 'email')
+#7 D:\VertrigoServ\www\resumemarket\yii\web\CBaseController.php(126): require('D:\VertrigoServ...')
+#8 D:\VertrigoServ\www\resumemarket\yii\web\CBaseController.php(95): CBaseController->renderInternal('D:\VertrigoServ...', Array, true)
+#9 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(869): CBaseController->renderFile('D:\VertrigoServ...', Array, true)
+#10 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(782): CController->renderPartial('login', Array, true)
+#11 D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php(13): CController->render('login', Array)
+#12 D:\VertrigoServ\www\resumemarket\yii\web\actions\CInlineAction.php(49): LoginController->actionLogin()
+#13 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(282): CController->run('')
+#17 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(141): CWebApplication->runController('login')
+#18 D:\VertrigoServ\www\resumemarket\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\VertrigoServ\www\resumemarket\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/resumemarket/login
+---
+2015/01/05 19:36:13 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (18)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/05 19:40:11 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (18)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/05 19:40:11 [error] [php] include(Commons.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\VertrigoServ\www\resumemarket\yii\YiiBase.php:427)
+Stack trace:
+#0 D:\VertrigoServ\www\resumemarket\yii\YiiBase.php(196): import()
+#1 D:\VertrigoServ\www\resumemarket\yii\base\CModule.php(386): createComponent()
+#2 D:\VertrigoServ\www\resumemarket\yii\base\CModule.php(103): CWebApplication->getComponent()
+#3 D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php(19): CWebApplication->__get()
+#4 D:\VertrigoServ\www\resumemarket\yii\web\actions\CInlineAction.php(49): LoginController->actionLogin()
+#5 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(286): LoginController->runAction()
+#7 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(265): LoginController->runActionWithFilters()
+#8 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(282): LoginController->run()
+#9 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\VertrigoServ\www\resumemarket\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\VertrigoServ\www\resumemarket\index.php(13): CWebApplication->run()
+REQUEST_URI=/resumemarket/login
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (19)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/05 19:40:29 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (18)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/05 19:42:00 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (18)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/05 19:46:39 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (18)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/05 19:47:35 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (18)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/05 19:48:29 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (18)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/05 19:48:29 [error] [exception.CDbException] exception 'CDbException' with message 'The active record cannot be updated because it is new.' in D:\VertrigoServ\www\resumemarket\yii\db\ar\CActiveRecord.php:1118
+Stack trace:
+#0 D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php(23): CActiveRecord->update()
+#1 D:\VertrigoServ\www\resumemarket\yii\web\actions\CInlineAction.php(49): LoginController->actionLogin()
+#2 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(282): CController->run('')
+#6 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(141): CWebApplication->runController('login')
+#7 D:\VertrigoServ\www\resumemarket\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\VertrigoServ\www\resumemarket\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/resumemarket/login
+HTTP_REFERER=http://localhost/resumemarket/login
+---
+2015/01/05 19:48:40 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (18)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/05 19:49:17 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (18)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/05 19:49:27 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (18)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/11 18:08:27 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (18)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/11 18:08:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "account/activate".' in D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(141): CWebApplication->runController('account/activat...')
+#1 D:\VertrigoServ\www\resumemarket\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\VertrigoServ\www\resumemarket\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/resumemarket/account/activate?key=SVWcx015IMFMoQCB3h5qDHNACbWVZkgMceY0duMWvbVq3U6NjM3
+---
+2015/01/11 18:13:38 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (17)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/11 18:15:20 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (17)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/11 18:24:34 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (17)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/11 18:24:56 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (17)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/11 18:25:13 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (17)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/11 18:25:41 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (17)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/11 18:29:51 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.username" is not defined.' in D:\VertrigoServ\www\resumemarket\yii\base\CComponent.php:130
+Stack trace:
+#0 D:\VertrigoServ\www\resumemarket\yii\web\helpers\CHtml.php(2529): CComponent->__get('username')
+#1 D:\VertrigoServ\www\resumemarket\yii\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(LoginForm), 'username')
+#2 D:\VertrigoServ\www\resumemarket\yii\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(LoginForm), 'username', Array)
+#3 D:\VertrigoServ\www\resumemarket\yii\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(LoginForm), 'username', Array)
+#4 D:\VertrigoServ\www\resumemarket\protected\views\site\login.php(29): CActiveForm->textField(Object(LoginForm), 'username')
+#5 D:\VertrigoServ\www\resumemarket\yii\web\CBaseController.php(126): require('D:\VertrigoServ...')
+#6 D:\VertrigoServ\www\resumemarket\yii\web\CBaseController.php(95): CBaseController->renderInternal('D:\VertrigoServ...', Array, true)
+#7 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(869): CBaseController->renderFile('D:\VertrigoServ...', Array, true)
+#8 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(782): CController->renderPartial('login', Array, true)
+#9 D:\VertrigoServ\www\resumemarket\protected\controllers\SiteController.php(109): CController->render('login', Array)
+#10 D:\VertrigoServ\www\resumemarket\yii\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#11 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(282): CController->run('login')
+#15 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#16 D:\VertrigoServ\www\resumemarket\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#17 D:\VertrigoServ\www\resumemarket\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/resumemarket/site/login
+---
+2015/01/12 16:43:26 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (17)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/12 16:59:34 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.social" is not defined.' in D:\VertrigoServ\www\resumemarket\yii\base\CComponent.php:173
+Stack trace:
+#0 D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php(37): CComponent->__set('social', false)
+#1 D:\VertrigoServ\www\resumemarket\yii\web\actions\CInlineAction.php(49): LoginController->actionLogin()
+#2 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(282): CController->run('')
+#6 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(141): CWebApplication->runController('login')
+#7 D:\VertrigoServ\www\resumemarket\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\VertrigoServ\www\resumemarket\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/resumemarket/login
+HTTP_REFERER=http://localhost/resumemarket/login
+---
+2015/01/12 17:00:53 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.username" is not defined.' in D:\VertrigoServ\www\resumemarket\yii\base\CComponent.php:130
+Stack trace:
+#0 D:\VertrigoServ\www\resumemarket\protected\models\accounts\LoginForm.php(19): CComponent->__get('username')
+#1 D:\VertrigoServ\www\resumemarket\yii\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#2 D:\VertrigoServ\www\resumemarket\yii\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#3 D:\VertrigoServ\www\resumemarket\yii\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#4 D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php(38): CModel->validate()
+#5 D:\VertrigoServ\www\resumemarket\yii\web\actions\CInlineAction.php(49): LoginController->actionLogin()
+#6 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(282): CController->run('')
+#10 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(141): CWebApplication->runController('login')
+#11 D:\VertrigoServ\www\resumemarket\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\VertrigoServ\www\resumemarket\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/resumemarket/login
+HTTP_REFERER=http://localhost/resumemarket/login
+---
+2015/01/12 17:16:10 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (17)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/12 18:06:29 [error] [php] Undefined variable: body (D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php:39)
+Stack trace:
+#0 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(286): LoginController->runAction()
+#1 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(265): LoginController->runActionWithFilters()
+#2 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(282): LoginController->run()
+#3 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\VertrigoServ\www\resumemarket\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\VertrigoServ\www\resumemarket\index.php(13): CWebApplication->run()
+REQUEST_URI=/resumemarket/login
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (39)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/13 15:55:57 [error] [exception.CException] exception 'CException' with message 'Commons and its behaviors do not have a method or closure named "getFacebookApp".' in D:\VertrigoServ\www\resumemarket\yii\base\CComponent.php:266
+Stack trace:
+#0 D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php(10): CComponent->__call('getFacebookApp', Array)
+#1 D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php(10): Commons->getFacebookApp()
+#2 D:\VertrigoServ\www\resumemarket\yii\web\actions\CInlineAction.php(49): LoginController->actionLogin()
+#3 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(282): CController->run('')
+#7 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(141): CWebApplication->runController('login')
+#8 D:\VertrigoServ\www\resumemarket\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\VertrigoServ\www\resumemarket\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/resumemarket/login
+---
+2015/01/13 16:17:46 [error] [php] file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: php_network_getaddresses: getaddrinfo failed: No such host is known.  (D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php:52)
+Stack trace:
+#0 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(286): LoginController->runAction()
+#2 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(265): LoginController->runActionWithFilters()
+#3 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(282): LoginController->run()
+#4 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\VertrigoServ\www\resumemarket\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\VertrigoServ\www\resumemarket\index.php(13): CWebApplication->run()
+REQUEST_URI=/resumemarket/login/facebook?code=AQCI9mKPj39y-fWrEJo8ofO2rFfqp1I-kRuOayeRIz-a6TWHpLi4tnrprdCo4Lf8wcqpe8SY1cYBVlQFPm74AVnvNO_vSl8ZSlnaF31-gQdlNi3fEqtAl4uoKzBvTC2pANnhdb4OUgtxVTA3NooOz_4bVPsqMnhNpHsI00Pc8wGOvPrjoNfD5Nhg2fcrTiAsjI8m64NNaBXTGM9oupBMBLqjhS-FXRFUCBJfsRyxRJVV6t4sjZAYbkQZRnKfKagJW56Kjth1kgy2LA0UdBz_bsZD3qFlCJUdJqhYFUS8mF4BPOgnN2JhYGP9dh6qh5W3krpgi_UF-gn5PjUNxT58cJbT
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (52)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/13 16:51:19 [error] [php] include(RessendActivationForm.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\VertrigoServ\www\resumemarket\yii\YiiBase.php:427)
+Stack trace:
+#0 D:\VertrigoServ\www\resumemarket\protected\controllers\SiteController.php(36): spl_autoload_call()
+#1 D:\VertrigoServ\www\resumemarket\yii\web\actions\CInlineAction.php(49): SiteController->actionResendActivation()
+#2 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(286): SiteController->runAction()
+#4 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(265): SiteController->runActionWithFilters()
+#5 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(282): SiteController->run()
+#6 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\VertrigoServ\www\resumemarket\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\VertrigoServ\www\resumemarket\index.php(13): CWebApplication->run()
+REQUEST_URI=/resumemarket/site/resendactivation
+in D:\VertrigoServ\www\resumemarket\protected\controllers\SiteController.php (36)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/13 16:51:50 [error] [php] Trying to get property of non-object (D:\VertrigoServ\www\resumemarket\protected\models\accounts\ResendActivationForm.php:33)
+Stack trace:
+#0 D:\VertrigoServ\www\resumemarket\yii\base\CModel.php(159): CInlineValidator->validate()
+#1 D:\VertrigoServ\www\resumemarket\protected\controllers\SiteController.php(40): ResendActivationForm->validate()
+#2 D:\VertrigoServ\www\resumemarket\yii\web\actions\CInlineAction.php(49): SiteController->actionResendActivation()
+#3 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(286): SiteController->runAction()
+#5 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(265): SiteController->runActionWithFilters()
+#6 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(282): SiteController->run()
+#7 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\VertrigoServ\www\resumemarket\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\VertrigoServ\www\resumemarket\index.php(13): CWebApplication->run()
+REQUEST_URI=/resumemarket/site/resendactivation
+in D:\VertrigoServ\www\resumemarket\protected\models\accounts\ResendActivationForm.php (33)
+in D:\VertrigoServ\www\resumemarket\protected\controllers\SiteController.php (40)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/13 17:27:30 [error] [exception.CException] exception 'CException' with message 'Property "CRequiredValidator.0" is not defined.' in D:\VertrigoServ\www\resumemarket\yii\base\CComponent.php:173
+Stack trace:
+#0 D:\VertrigoServ\www\resumemarket\yii\validators\CValidator.php(189): CComponent->__set('0', 'on')
+#1 D:\VertrigoServ\www\resumemarket\yii\base\CModel.php(287): CValidator::createValidator('required', Object(LoginForm), 'password', Array)
+#2 D:\VertrigoServ\www\resumemarket\yii\base\CModel.php(260): CModel->createValidators()
+#3 D:\VertrigoServ\www\resumemarket\yii\base\CModel.php(304): CModel->getValidators('email')
+#4 D:\VertrigoServ\www\resumemarket\yii\web\helpers\CHtml.php(1414): CModel->isAttributeRequired('email')
+#5 D:\VertrigoServ\www\resumemarket\yii\web\widgets\CActiveForm.php(597): CHtml::activeLabelEx(Object(LoginForm), 'email', Array)
+#6 D:\VertrigoServ\www\resumemarket\protected\views\login\login.php(66): CActiveForm->labelEx(Object(LoginForm), 'email')
+#7 D:\VertrigoServ\www\resumemarket\yii\web\CBaseController.php(126): require('D:\VertrigoServ...')
+#8 D:\VertrigoServ\www\resumemarket\yii\web\CBaseController.php(95): CBaseController->renderInternal('D:\VertrigoServ...', Array, true)
+#9 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(869): CBaseController->renderFile('D:\VertrigoServ...', Array, true)
+#10 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(782): CController->renderPartial('login', Array, true)
+#11 D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php(48): CController->render('login', Array)
+#12 D:\VertrigoServ\www\resumemarket\yii\web\actions\CInlineAction.php(49): LoginController->actionLogin()
+#13 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(282): CController->run('')
+#17 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(141): CWebApplication->runController('login')
+#18 D:\VertrigoServ\www\resumemarket\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\VertrigoServ\www\resumemarket\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/resumemarket/login
+---
+2015/01/17 18:04:52 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (21)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/17 18:04:52 [error] [exception.CException] exception 'CException' with message 'Commons and its behaviors do not have a method or closure named "getSalt".' in D:\VertrigoServ\www\resumemarket\yii\base\CComponent.php:266
+Stack trace:
+#0 D:\VertrigoServ\www\resumemarket\protected\components\Commons.php(15): CComponent->__call('getSalt', Array)
+#1 D:\VertrigoServ\www\resumemarket\protected\components\Commons.php(15): Commons->getSalt('123456', 'hammadhere5@gma...')
+#2 D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php(22): Commons->hashPassword('123456', 'hammadhere5@gma...')
+#3 D:\VertrigoServ\www\resumemarket\yii\web\actions\CInlineAction.php(49): LoginController->actionLogin()
+#4 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(282): CController->run('')
+#8 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(141): CWebApplication->runController('login')
+#9 D:\VertrigoServ\www\resumemarket\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\VertrigoServ\www\resumemarket\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/resumemarket/login
+HTTP_REFERER=http://localhost/resumemarket/login
+---
+2015/01/17 18:05:18 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (21)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/17 18:06:45 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (21)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/17 18:07:37 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (21)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/17 18:07:53 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (21)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/17 18:07:59 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (21)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/17 18:08:43 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (21)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/17 18:09:20 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (21)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/17 18:09:47 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (21)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/17 18:09:50 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (21)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/17 18:09:52 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (21)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/17 18:09:55 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (21)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/17 18:16:57 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (21)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/17 18:16:57 [error] [php] include(CpasswordHelper.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\VertrigoServ\www\resumemarket\yii\YiiBase.php:427)
+Stack trace:
+#0 D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php(24): spl_autoload_call()
+#1 D:\VertrigoServ\www\resumemarket\yii\web\actions\CInlineAction.php(49): LoginController->actionLogin()
+#2 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(286): LoginController->runAction()
+#4 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(265): LoginController->runActionWithFilters()
+#5 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(282): LoginController->run()
+#6 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\VertrigoServ\www\resumemarket\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\VertrigoServ\www\resumemarket\index.php(13): CWebApplication->run()
+REQUEST_URI=/resumemarket/login
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (24)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/17 18:17:08 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (21)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/17 18:17:15 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (21)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/17 18:17:21 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (21)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/17 18:17:47 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (21)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/17 18:17:52 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (21)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/17 18:20:26 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (21)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/17 19:09:16 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (22)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/17 19:09:16 [error] [php] Undefined variable: password (D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php:23)
+Stack trace:
+#0 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(286): LoginController->runAction()
+#1 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(265): LoginController->runActionWithFilters()
+#2 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(282): LoginController->run()
+#3 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\VertrigoServ\www\resumemarket\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\VertrigoServ\www\resumemarket\index.php(13): CWebApplication->run()
+REQUEST_URI=/resumemarket/login
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (23)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/17 19:10:38 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (22)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/17 19:13:17 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "User".
+in D:\VertrigoServ\www\resumemarket\protected\controllers\LoginController.php (22)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/17 19:43:29 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "forgot_password".' in D:\VertrigoServ\www\resumemarket\yii\web\CController.php:878
+Stack trace:
+#0 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(782): CController->renderPartial('forgot_password', Array, true)
+#1 D:\VertrigoServ\www\resumemarket\protected\controllers\SiteController.php(80): CController->render('forgot_password', Array)
+#2 D:\VertrigoServ\www\resumemarket\yii\web\actions\CInlineAction.php(49): SiteController->actionForgotPassword()
+#3 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(282): CController->run('forgotpassword')
+#7 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(141): CWebApplication->runController('site/forgotpass...')
+#8 D:\VertrigoServ\www\resumemarket\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\VertrigoServ\www\resumemarket\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/resumemarket/site/forgotpassword
+---
+2015/01/17 19:52:03 [error] [php] include(ResetPasswordForm.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\VertrigoServ\www\resumemarket\yii\YiiBase.php:427)
+Stack trace:
+#0 D:\VertrigoServ\www\resumemarket\protected\controllers\SiteController.php(91): spl_autoload_call()
+#1 D:\VertrigoServ\www\resumemarket\yii\web\actions\CInlineAction.php(49): SiteController->actionResetPassword()
+#2 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(286): SiteController->runAction()
+#4 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(265): SiteController->runActionWithFilters()
+#5 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(282): SiteController->run()
+#6 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\VertrigoServ\www\resumemarket\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\VertrigoServ\www\resumemarket\index.php(13): CWebApplication->run()
+REQUEST_URI=/resumemarket/site/resetpassword?key=QhdEieDRRNywGk9VbB8IzCacviVQ6wxwiAMTCx5Ulq4iU8PtvuHgbDc5TzFzNDhYnx~1IrnhxZq7
+in D:\VertrigoServ\www\resumemarket\protected\controllers\SiteController.php (91)
+in D:\VertrigoServ\www\resumemarket\index.php (13)
+2015/01/17 19:53:26 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "reset_password".' in D:\VertrigoServ\www\resumemarket\yii\web\CController.php:878
+Stack trace:
+#0 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(782): CController->renderPartial('reset_password', Array, true)
+#1 D:\VertrigoServ\www\resumemarket\protected\controllers\SiteController.php(105): CController->render('reset_password', Array)
+#2 D:\VertrigoServ\www\resumemarket\yii\web\actions\CInlineAction.php(49): SiteController->actionResetPassword()
+#3 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(282): CController->run('resetpassword')
+#7 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(141): CWebApplication->runController('site/resetpassw...')
+#8 D:\VertrigoServ\www\resumemarket\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\VertrigoServ\www\resumemarket\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/resumemarket/site/resetpassword?key=QhdEieDRRNywGk9VbB8IzCacviVQ6wxwiAMTCx5Ulq4iU8PtvuHgbDc5TzFzNDhYnx~1IrnhxZq7
+---
+2015/01/17 19:56:16 [error] [exception.CException] exception 'CException' with message 'Property "ResetPasswordForm.newpassword" is not defined.' in D:\VertrigoServ\www\resumemarket\yii\base\CComponent.php:130
+Stack trace:
+#0 D:\VertrigoServ\www\resumemarket\protected\controllers\SiteController.php(97): CComponent->__get('newpassword')
+#1 D:\VertrigoServ\www\resumemarket\yii\web\actions\CInlineAction.php(49): SiteController->actionResetPassword()
+#2 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\VertrigoServ\www\resumemarket\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(282): CController->run('resetpassword')
+#6 D:\VertrigoServ\www\resumemarket\yii\web\CWebApplication.php(141): CWebApplication->runController('site/resetpassw...')
+#7 D:\VertrigoServ\www\resumemarket\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\VertrigoServ\www\resumemarket\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/resumemarket/site/resetpassword?key=QhdEieDRRNywGk9VbB8IzCacviVQ6wxwiAMTCx5Ulq4iU8PtvuHgbDc5TzFzNDhYnx~1IrnhxZq7
+HTTP_REFERER=http://localhost/resumemarket/site/resetpassword?key=QhdEieDRRNywGk9VbB8IzCacviVQ6wxwiAMTCx5Ulq4iU8PtvuHgbDc5TzFzNDhYnx~1IrnhxZq7
+---
