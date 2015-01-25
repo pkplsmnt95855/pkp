@@ -50,7 +50,7 @@ return array(
          */
         // uncomment the following to use a MySQL database
         'db' => array(
-            'connectionString' => 'mysql:host=localhost;dbname=tester',
+            'connectionString' => 'mysql:host=localhost;dbname=pakistanplacement',
             'emulatePrepare' => true,
             'username' => 'root',
             'password' => 'vertrigo',
