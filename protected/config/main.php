@@ -14,7 +14,11 @@ return array(
     'import' => array(
         'application.models.*',
         'application.models.accounts.*',
+        'application.models.employer.*',
+        'application.models.candidate.*',
+        'application.models.common.*',
         'application.components.*',
+        'application.extensions.select2.Select2',
     ),
     'modules' => array(
         // uncomment the following to enable the Gii tool
@@ -22,8 +26,8 @@ return array(
         'gii' => array(
             'class' => 'system.gii.GiiModule',
             'password' => '123456',
-            // If removed, Gii defaults to localhost only. Edit carefully to taste.
-            'ipFilters' => array('127.0.0.1', '::1'),
+        // If removed, Gii defaults to localhost only. Edit carefully to taste.
+        //  'ipFilters' => array('127.0.0.1', '::1'),
         ),
     ),
     // application components
@@ -33,10 +37,11 @@ return array(
             'allowAutoLogin' => true,
         ),
         'commons' => array('class' => 'Commons'),
+        'postjob' => array('class' => 'PostJob'),
         // uncomment the following to enable URLs in path-format
         'urlManager' => array(
             'urlFormat' => 'path',
-            'showScriptName'=>false,
+            'showScriptName' => false,
             'rules' => array(
                 '<controller:\w+>/<id:\d+>' => '<controller>/view',
                 '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',

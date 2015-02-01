@@ -1,45 +1,4 @@
-<div style="float:right;">
-    <h1>Signup</h1>
 
-    <p>Not a member yet? Join now</p>
-
-    <div class="form">
-        <?php
-        $form = $this->beginWidget('CActiveForm', array(
-            'id' => 'signup-form',
-            'enableClientValidation' => true,
-            'clientOptions' => array(
-                'validateOnSubmit' => true,
-            ),
-        ));
-        ?>
-
-        <div class="row">
-            <?php echo $form->labelEx($register, 'email'); ?>
-            <?php echo $form->textField($register, 'email'); ?>
-            <?php echo $form->error($register, 'email'); ?>
-        </div>
-
-        <div class="row">
-            <?php echo $form->labelEx($register, 'password'); ?>
-            <?php echo $form->passwordField($register, 'password'); ?>
-            <?php echo $form->error($register, 'password'); ?>
-        </div>
-
-        <div class="row">
-            <?php echo $form->labelEx($register, 'confirmPassword'); ?>
-            <?php echo $form->passwordField($register, 'confirmPassword'); ?>
-            <?php echo $form->error($register, 'confirmPassword'); ?>
-        </div>
-
-
-        <div class="row buttons">
-            <?php echo CHtml::submitButton('Sign Up'); ?>
-        </div>
-
-        <?php $this->endWidget(); ?>
-    </div>
-</div>
 <div style="float:left;">
 
     <h1>Sign-In</h1>

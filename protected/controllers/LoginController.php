@@ -17,43 +17,24 @@ class LoginController extends Controller {
         $google_app = Yii::app()->commons->getGoogleApp();
         $google_url = "https://accounts.google.com/o/oauth2/auth?redirect_uri=" . $google_app['callback_url'] . "&response_type=code&client_id=" . $google_app['client_id'] . "&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&approval_prompt=force&access_type=offline";
 
-        $register = new RegistrationForm();
-        $login = new LoginForm();
-
-        if (isset($_POST['RegistrationForm']))
-        {
-            $register->attributes = $_POST['RegistrationForm'];
-            if ($register->validate())
-            {
-                $user = new User;
-                $user->attributes = $register->attributes;
-                $user->password = CPasswordHelper::hashPassword($user->password);
-                $user->status = 'Inactive';
-                $user->role = 'member';
-                $user->save();
-                $user->activation_key = Yii::app()->getSecurityManager()->generateRandomString(75, false) . $user->id;
-                if ($user->save())
-                {
-                    $activation_url = Yii::app()->request->getBaseUrl(true) . '/site/activate?key=' . $user->activation_key;
-                    $body = "Thank you for registering with Resume Market. Your account is currently inactive. Please click the link below to activate your account.<br/><a href='" . $activation_url . "'>Click here to activate your account</a>";
-                    if (Yii::app()->commons->sendPlainEmail($user->email, "Activate Your Account", $body))
-                        $this->redirect(array('site/registrationsuccessful'));
-                }
-            }
-        }
-        $register->unsetAttributes(array('password', 'confirmPassword'));
+        $login=new LoginForm();
 
         if (isset($_POST['LoginForm']))
         {
             $login->attributes = $_POST['LoginForm'];
             $login->social = false;
+            $login->userType='Candidate';
             if ($login->login())
             {
-                $this->redirect(array('account/'));
+                $this->redirect(array('candidate/'));
+            }
+            else
+            {
+                print_r($login->getErrors());
             }
         }
 
-        $this->render('login', array('register' => $register, 'login' => $login, 'facebook_url' => $facebook_url, 'linkedin_url' => $linkedin_url, 'google_url' => $google_url));
+        $this->render('login', array( 'login' => $login, 'facebook_url' => $facebook_url, 'linkedin_url' => $linkedin_url, 'google_url' => $google_url));
     }
 
     public function actionFacebook()

@@ -5,6 +5,7 @@ class LoginForm extends CFormModel {
     public $email;
     public $password;
     public $social;
+    public $userType;
     private $_identity;
 
     public function rules()
@@ -17,10 +18,9 @@ class LoginForm extends CFormModel {
 
     public function authenticate($attribute, $params)
     {
-
         if (!$this->hasErrors())
         {
-            $this->_identity = new UserIdentity($this->email, $this->password);
+            $this->_identity = new UserIdentity($this->email, $this->password,$this->userType);
             $this->_identity->authenticate($this->social);
 
             if ($this->_identity->errorCode === UserIdentity::ERROR_INACTIVE_ACCOUNT)
@@ -39,7 +39,7 @@ class LoginForm extends CFormModel {
     {
         if ($this->_identity === null)
         {
-            $this->_identity = new UserIdentity($this->email, $this->password);
+            $this->_identity = new UserIdentity($this->email, $this->password,$this->userType);
             $this->_identity->authenticate($this->social);
         }
         if ($this->_identity->errorCode === UserIdentity::ERROR_NONE)

@@ -944,3 +944,1052 @@ Stack trace:
 REQUEST_URI=/resumemarket/site/resetpassword?key=QhdEieDRRNywGk9VbB8IzCacviVQ6wxwiAMTCx5Ulq4iU8PtvuHgbDc5TzFzNDhYnx~1IrnhxZq7
 HTTP_REFERER=http://localhost/resumemarket/site/resetpassword?key=QhdEieDRRNywGk9VbB8IzCacviVQ6wxwiAMTCx5Ulq4iU8PtvuHgbDc5TzFzNDhYnx~1IrnhxZq7
 ---
+2015/01/31 05:08:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "signup/employer".' in D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController('signup/employer')
+#1 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\VertrigoServ\www\pakistanplacements\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pakistanplacements/signup/employer
+---
+2015/01/31 05:09:50 [error] [exception.CException] exception 'CException' with message 'SignupController cannot find the requested view "employer_signup".' in D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php:878
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(782): CController->renderPartial('employer_signup', Array, true)
+#1 D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php(54): CController->render('employer_signup', Array)
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): SignupController->actionEmployer()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): CController->run('employer')
+#7 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController('signup/employer')
+#8 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\VertrigoServ\www\pakistanplacements\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/pakistanplacements/signup/employer
+---
+2015/01/31 05:21:10 [error] [exception.CException] exception 'CException' with message 'Property "Employer.confirmPassword" is not defined.' in D:\VertrigoServ\www\pakistanplacements\yii\base\CComponent.php:130
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\db\ar\CActiveRecord.php(145): CComponent->__get('confirmPassword')
+#1 D:\VertrigoServ\www\pakistanplacements\yii\web\helpers\CHtml.php(2529): CActiveRecord->__get('confirmPassword')
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Employer), 'confirmPassword')
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\helpers\CHtml.php(1628): CHtml::activeInputField('password', Object(Employer), 'confirmPassword', Array)
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\widgets\CActiveForm.php(771): CHtml::activePasswordField(Object(Employer), 'confirmPassword', Array)
+#5 D:\VertrigoServ\www\pakistanplacements\protected\views\signup\employer_signup.php(41): CActiveForm->passwordField(Object(Employer), 'confirmPassword')
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\CBaseController.php(126): require('D:\VertrigoServ...')
+#7 D:\VertrigoServ\www\pakistanplacements\yii\web\CBaseController.php(95): CBaseController->renderInternal('D:\VertrigoServ...', Array, true)
+#8 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(869): CBaseController->renderFile('D:\VertrigoServ...', Array, true)
+#9 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(782): CController->renderPartial('employer_signup', Array, true)
+#10 D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php(51): CController->render('employer_signup', Array)
+#11 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): SignupController->actionEmployer()
+#12 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): CController->run('employer')
+#16 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController('signup/employer')
+#17 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#18 D:\VertrigoServ\www\pakistanplacements\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/pakistanplacements/signup/employer
+---
+2015/01/31 05:21:48 [error] [exception.CException] exception 'CException' with message 'Property "Employer.confirmPassword" is not defined.' in D:\VertrigoServ\www\pakistanplacements\yii\base\CComponent.php:130
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\db\ar\CActiveRecord.php(145): CComponent->__get('confirmPassword')
+#1 D:\VertrigoServ\www\pakistanplacements\yii\web\helpers\CHtml.php(2529): CActiveRecord->__get('confirmPassword')
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Employer), 'confirmPassword')
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\helpers\CHtml.php(1628): CHtml::activeInputField('password', Object(Employer), 'confirmPassword', Array)
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\widgets\CActiveForm.php(771): CHtml::activePasswordField(Object(Employer), 'confirmPassword', Array)
+#5 D:\VertrigoServ\www\pakistanplacements\protected\views\signup\employer_signup.php(41): CActiveForm->passwordField(Object(Employer), 'confirmPassword')
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\CBaseController.php(126): require('D:\VertrigoServ...')
+#7 D:\VertrigoServ\www\pakistanplacements\yii\web\CBaseController.php(95): CBaseController->renderInternal('D:\VertrigoServ...', Array, true)
+#8 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(869): CBaseController->renderFile('D:\VertrigoServ...', Array, true)
+#9 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(782): CController->renderPartial('employer_signup', Array, true)
+#10 D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php(56): CController->render('employer_signup', Array)
+#11 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): SignupController->actionEmployer()
+#12 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): CController->run('employer')
+#16 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController('signup/employer')
+#17 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#18 D:\VertrigoServ\www\pakistanplacements\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/pakistanplacements/signup/employer
+---
+2015/01/31 05:21:50 [error] [exception.CException] exception 'CException' with message 'Property "Employer.confirmPassword" is not defined.' in D:\VertrigoServ\www\pakistanplacements\yii\base\CComponent.php:130
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\db\ar\CActiveRecord.php(145): CComponent->__get('confirmPassword')
+#1 D:\VertrigoServ\www\pakistanplacements\yii\web\helpers\CHtml.php(2529): CActiveRecord->__get('confirmPassword')
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Employer), 'confirmPassword')
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\helpers\CHtml.php(1628): CHtml::activeInputField('password', Object(Employer), 'confirmPassword', Array)
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\widgets\CActiveForm.php(771): CHtml::activePasswordField(Object(Employer), 'confirmPassword', Array)
+#5 D:\VertrigoServ\www\pakistanplacements\protected\views\signup\employer_signup.php(41): CActiveForm->passwordField(Object(Employer), 'confirmPassword')
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\CBaseController.php(126): require('D:\VertrigoServ...')
+#7 D:\VertrigoServ\www\pakistanplacements\yii\web\CBaseController.php(95): CBaseController->renderInternal('D:\VertrigoServ...', Array, true)
+#8 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(869): CBaseController->renderFile('D:\VertrigoServ...', Array, true)
+#9 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(782): CController->renderPartial('employer_signup', Array, true)
+#10 D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php(56): CController->render('employer_signup', Array)
+#11 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): SignupController->actionEmployer()
+#12 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): CController->run('employer')
+#16 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController('signup/employer')
+#17 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#18 D:\VertrigoServ\www\pakistanplacements\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/pakistanplacements/signup/employer
+---
+2015/01/31 05:22:52 [warning] [application] Failed to set unsafe attribute "logo" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 05:22:52 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "Employer".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (31)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 05:22:52 [warning] [application] Failed to set unsafe attribute "verifyCode" of "Employer".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (31)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 05:26:15 [warning] [application] Failed to set unsafe attribute "logo" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 05:26:15 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "Employer".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (31)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 05:26:15 [warning] [application] Failed to set unsafe attribute "verifyCode" of "Employer".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (31)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 05:30:13 [warning] [application] Failed to set unsafe attribute "logo" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 05:30:14 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "Employer".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (31)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 05:30:14 [warning] [application] Failed to set unsafe attribute "verifyCode" of "Employer".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (31)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 05:30:16 [error] [exception.CException] exception 'CException' with message 'SignupController cannot find the requested view "signup_suscess".' in D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php:878
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(782): CController->renderPartial('signup_suscess', NULL, true)
+#1 D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php(61): CController->render('signup_suscess')
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): SignupController->actionSuccess()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): CController->run('success')
+#7 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController('signup/success')
+#8 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\VertrigoServ\www\pakistanplacements\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/pakistanplacements/signup/success
+HTTP_REFERER=http://localhost/pakistanplacements/signup/employer
+---
+2015/01/31 05:33:31 [error] [exception.CException] exception 'CException' with message 'Property "CUniqueValidator.class" is not defined.' in D:\VertrigoServ\www\pakistanplacements\yii\base\CComponent.php:173
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\validators\CValidator.php(189): CComponent->__set('class', 'Employer')
+#1 D:\VertrigoServ\www\pakistanplacements\yii\base\CModel.php(287): CValidator::createValidator('unique', Object(EmployerRegistrationForm), 'email', Array)
+#2 D:\VertrigoServ\www\pakistanplacements\yii\base\CModel.php(260): CModel->createValidators()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\base\CModel.php(547): CModel->getValidators()
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\widgets\CActiveForm.php(564): CModel->getSafeAttributeNames()
+#5 D:\VertrigoServ\www\pakistanplacements\protected\views\signup\employer_signup.php(19): CActiveForm->errorSummary(Object(EmployerRegistrationForm))
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\CBaseController.php(126): require('D:\VertrigoServ...')
+#7 D:\VertrigoServ\www\pakistanplacements\yii\web\CBaseController.php(95): CBaseController->renderInternal('D:\VertrigoServ...', Array, true)
+#8 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(869): CBaseController->renderFile('D:\VertrigoServ...', Array, true)
+#9 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(782): CController->renderPartial('employer_signup', Array, true)
+#10 D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php(56): CController->render('employer_signup', Array)
+#11 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): SignupController->actionEmployer()
+#12 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): CController->run('employer')
+#16 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController('signup/employer')
+#17 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#18 D:\VertrigoServ\www\pakistanplacements\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/pakistanplacements/signup/employer
+---
+2015/01/31 05:35:53 [warning] [application] Failed to set unsafe attribute "logo" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 05:35:53 [warning] [application] Failed to set unsafe attribute "company_description" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 05:35:53 [error] [php] include(Email.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\VertrigoServ\www\pakistanplacements\yii\YiiBase.php:427)
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\db\ar\CActiveRecord.php(395): spl_autoload_call()
+#1 D:\VertrigoServ\www\pakistanplacements\yii\validators\CUniqueValidator.php(148): model()
+#2 D:\VertrigoServ\www\pakistanplacements\yii\validators\CUniqueValidator.php(95): CUniqueValidator->getModel()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\validators\CValidator.php(213): CUniqueValidator->validateAttribute()
+#4 D:\VertrigoServ\www\pakistanplacements\yii\base\CModel.php(159): CUniqueValidator->validate()
+#5 D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php(28): EmployerRegistrationForm->validate()
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): SignupController->actionEmployer()
+#7 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams()
+#8 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): SignupController->runAction()
+#9 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): SignupController->runActionWithFilters()
+#10 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): SignupController->run()
+#11 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\VertrigoServ\www\pakistanplacements\index.php(13): CWebApplication->run()
+REQUEST_URI=/pakistanplacements/signup/employer
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (28)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 05:36:44 [warning] [application] Failed to set unsafe attribute "logo" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 05:36:44 [warning] [application] Failed to set unsafe attribute "company_description" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 05:37:31 [warning] [application] Failed to set unsafe attribute "logo" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 05:37:31 [warning] [application] Failed to set unsafe attribute "company_description" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:21:38 [error] [php] include(officialEmail,existingCompany.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\VertrigoServ\www\pakistanplacements\yii\YiiBase.php:427)
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\validators\CValidator.php(186): import()
+#1 D:\VertrigoServ\www\pakistanplacements\yii\base\CModel.php(287): createValidator()
+#2 D:\VertrigoServ\www\pakistanplacements\yii\base\CModel.php(260): EmployerRegistrationForm->createValidators()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\base\CModel.php(547): EmployerRegistrationForm->getValidators()
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\widgets\CActiveForm.php(564): EmployerRegistrationForm->getSafeAttributeNames()
+#5 D:\VertrigoServ\www\pakistanplacements\protected\views\signup\employer_signup.php(19): CActiveForm->errorSummary()
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\CBaseController.php(126): require()
+#7 D:\VertrigoServ\www\pakistanplacements\yii\web\CBaseController.php(95): SignupController->renderInternal()
+#8 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(869): SignupController->renderFile()
+#9 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(782): SignupController->renderPartial()
+#10 D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php(60): SignupController->render()
+#11 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): SignupController->actionEmployer()
+#12 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams()
+#13 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): SignupController->runAction()
+#14 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): SignupController->runActionWithFilters()
+#15 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): SignupController->run()
+#16 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#17 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#18 D:\VertrigoServ\www\pakistanplacements\index.php(13): CWebApplication->run()
+REQUEST_URI=/pakistanplacements/signup/employer
+in D:\VertrigoServ\www\pakistanplacements\protected\views\signup\employer_signup.php (19)
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (60)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:22:28 [warning] [application] Failed to set unsafe attribute "logo" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:22:28 [warning] [application] Failed to set unsafe attribute "company_description" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:22:28 [error] [exception.CException] exception 'CException' with message 'Commons and its behaviors do not have a method or closure named "getEmailServices".' in D:\VertrigoServ\www\pakistanplacements\yii\base\CComponent.php:266
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\protected\models\employer\EmployerRegistrationForm.php(49): CComponent->__call('getEmailService...', Array)
+#1 D:\VertrigoServ\www\pakistanplacements\protected\models\employer\EmployerRegistrationForm.php(49): Commons->getEmailServices()
+#2 D:\VertrigoServ\www\pakistanplacements\yii\validators\CInlineValidator.php(42): EmployerRegistrationForm->officialEmail('email', Array)
+#3 D:\VertrigoServ\www\pakistanplacements\yii\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(EmployerRegistrationForm), 'email')
+#4 D:\VertrigoServ\www\pakistanplacements\yii\base\CModel.php(159): CValidator->validate(Object(EmployerRegistrationForm), NULL)
+#5 D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php(28): CModel->validate()
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): SignupController->actionEmployer()
+#7 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): CController->run('employer')
+#11 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController('signup/employer')
+#12 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\VertrigoServ\www\pakistanplacements\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/pakistanplacements/signup/employer
+HTTP_REFERER=http://localhost/pakistanplacements/signup/employer
+---
+2015/01/31 07:23:06 [warning] [application] Failed to set unsafe attribute "logo" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:23:06 [warning] [application] Failed to set unsafe attribute "company_description" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:23:06 [error] [php] strpos() expects parameter 1 to be string, array given (D:\VertrigoServ\www\pakistanplacements\protected\models\employer\EmployerRegistrationForm.php:51)
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\validators\CValidator.php(213): CInlineValidator->validateAttribute()
+#1 D:\VertrigoServ\www\pakistanplacements\yii\base\CModel.php(159): CInlineValidator->validate()
+#2 D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php(28): EmployerRegistrationForm->validate()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): SignupController->actionEmployer()
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): SignupController->runAction()
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): SignupController->runActionWithFilters()
+#7 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): SignupController->run()
+#8 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\VertrigoServ\www\pakistanplacements\index.php(13): CWebApplication->run()
+REQUEST_URI=/pakistanplacements/signup/employer
+in D:\VertrigoServ\www\pakistanplacements\protected\models\employer\EmployerRegistrationForm.php (51)
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (28)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:24:29 [warning] [application] Failed to set unsafe attribute "logo" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:24:29 [warning] [application] Failed to set unsafe attribute "company_description" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:24:29 [error] [php] Trying to get property of non-object (D:\VertrigoServ\www\pakistanplacements\protected\models\employer\EmployerRegistrationForm.php:65)
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\base\CModel.php(159): CInlineValidator->validate()
+#1 D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php(28): EmployerRegistrationForm->validate()
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): SignupController->actionEmployer()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): SignupController->runAction()
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): SignupController->runActionWithFilters()
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): SignupController->run()
+#7 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\VertrigoServ\www\pakistanplacements\index.php(13): CWebApplication->run()
+REQUEST_URI=/pakistanplacements/signup/employer
+in D:\VertrigoServ\www\pakistanplacements\protected\models\employer\EmployerRegistrationForm.php (65)
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (28)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:24:57 [warning] [application] Failed to set unsafe attribute "logo" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:24:57 [warning] [application] Failed to set unsafe attribute "company_description" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:26:15 [warning] [application] Failed to set unsafe attribute "logo" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:26:15 [warning] [application] Failed to set unsafe attribute "company_description" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:26:22 [warning] [application] Failed to set unsafe attribute "logo" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:26:22 [warning] [application] Failed to set unsafe attribute "company_description" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:26:22 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "Employer".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (31)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:26:22 [warning] [application] Failed to set unsafe attribute "verifyCode" of "Employer".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (31)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:27:16 [warning] [application] Failed to set unsafe attribute "logo" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:27:16 [warning] [application] Failed to set unsafe attribute "company_description" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:27:31 [warning] [application] Failed to set unsafe attribute "logo" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:27:31 [warning] [application] Failed to set unsafe attribute "company_description" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:27:43 [warning] [application] Failed to set unsafe attribute "logo" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:27:43 [warning] [application] Failed to set unsafe attribute "company_description" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:28:57 [warning] [application] Failed to set unsafe attribute "logo" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:28:57 [warning] [application] Failed to set unsafe attribute "company_description" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:29:29 [warning] [application] Failed to set unsafe attribute "logo" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:29:29 [warning] [application] Failed to set unsafe attribute "company_description" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:29:47 [warning] [application] Failed to set unsafe attribute "logo" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:29:47 [warning] [application] Failed to set unsafe attribute "company_description" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:29:47 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "Employer".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (31)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:29:47 [warning] [application] Failed to set unsafe attribute "verifyCode" of "Employer".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (31)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:30:30 [warning] [application] Failed to set unsafe attribute "logo" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:30:30 [warning] [application] Failed to set unsafe attribute "company_description" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:30:46 [warning] [application] Failed to set unsafe attribute "logo" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:30:46 [warning] [application] Failed to set unsafe attribute "company_description" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:30:46 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "Employer".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (31)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:30:46 [warning] [application] Failed to set unsafe attribute "verifyCode" of "Employer".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (31)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:32:26 [warning] [application] Failed to set unsafe attribute "logo" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:32:26 [warning] [application] Failed to set unsafe attribute "company_description" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:32:26 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "Employer".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (31)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:32:26 [warning] [application] Failed to set unsafe attribute "verifyCode" of "Employer".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (31)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:33:44 [warning] [application] Failed to set unsafe attribute "logo" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:33:44 [warning] [application] Failed to set unsafe attribute "company_description" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (25)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:33:44 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "Employer".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (31)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:33:44 [warning] [application] Failed to set unsafe attribute "company_description" of "Employer".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (31)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:33:44 [warning] [application] Failed to set unsafe attribute "verifyCode" of "Employer".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (31)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:38:28 [warning] [application] Failed to set unsafe attribute "logo" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (23)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:38:28 [warning] [application] Failed to set unsafe attribute "company_description" of "EmployerRegistrationForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (23)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:38:28 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "Employer".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (29)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:38:28 [warning] [application] Failed to set unsafe attribute "company_description" of "Employer".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (29)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 07:38:28 [warning] [application] Failed to set unsafe attribute "verifyCode" of "Employer".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (29)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 08:23:53 [error] [php] include(CandidateRegistrationForm.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\VertrigoServ\www\pakistanplacements\yii\YiiBase.php:427)
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php(64): spl_autoload_call()
+#1 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): SignupController->actionCandidate()
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): SignupController->runAction()
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): SignupController->runActionWithFilters()
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): SignupController->run()
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\VertrigoServ\www\pakistanplacements\index.php(13): CWebApplication->run()
+REQUEST_URI=/pakistanplacements/signup/candidate
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (64)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 08:47:31 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "Employer".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (72)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 08:47:31 [warning] [application] Failed to set unsafe attribute "firstname" of "Employer".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (72)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 08:47:31 [warning] [application] Failed to set unsafe attribute "lastname" of "Employer".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (72)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 08:47:31 [warning] [application] Failed to set unsafe attribute "verifyCode" of "Employer".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (72)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 08:48:28 [warning] [application] Failed to set unsafe attribute "confirmPassword" of "Candidate".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (72)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 08:48:28 [warning] [application] Failed to set unsafe attribute "verifyCode" of "Candidate".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\SignupController.php (72)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 08:51:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "employer".' in D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController('employer')
+#1 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\VertrigoServ\www\pakistanplacements\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pakistanplacements/employer
+---
+2015/01/31 09:09:30 [error] [php] include(JobPostForm.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\VertrigoServ\www\pakistanplacements\yii\YiiBase.php:427)
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php(14): spl_autoload_call()
+#1 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): EmployerController->actionPostJob()
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): EmployerController->runAction()
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): EmployerController->runActionWithFilters()
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): EmployerController->run()
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\VertrigoServ\www\pakistanplacements\index.php(13): CWebApplication->run()
+REQUEST_URI=/pakistanplacements/employer/postjob
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php (14)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 09:10:16 [error] [exception.CException] exception 'CException' with message 'EmployerController cannot find the requested view "postjob".' in D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php:878
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(782): CController->renderPartial('postjob', NULL, true)
+#1 D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php(15): CController->render('postjob')
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): EmployerController->actionPostJob()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): CController->run('postjob')
+#7 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController('employer/postjo...')
+#8 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\VertrigoServ\www\pakistanplacements\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/pakistanplacements/employer/postjob
+---
+2015/01/31 09:10:51 [error] [exception.CException] exception 'CException' with message 'EmployerController cannot find the requested view "postjob".' in D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php:878
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(782): CController->renderPartial('postjob', NULL, true)
+#1 D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php(15): CController->render('postjob')
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): EmployerController->actionPostJob()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): CController->run('postjob')
+#7 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController('employer/postjo...')
+#8 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\VertrigoServ\www\pakistanplacements\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/pakistanplacements/employer/postjob
+---
+2015/01/31 09:11:02 [error] [php] Undefined variable: model (D:\VertrigoServ\www\pakistanplacements\protected\views\employer\post_job.php:19)
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(869): EmployerController->renderFile()
+#1 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(782): EmployerController->renderPartial()
+#2 D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php(15): EmployerController->render()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): EmployerController->actionPostJob()
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): EmployerController->runAction()
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): EmployerController->runActionWithFilters()
+#7 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): EmployerController->run()
+#8 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\VertrigoServ\www\pakistanplacements\index.php(13): CWebApplication->run()
+REQUEST_URI=/pakistanplacements/employer/postjob
+in D:\VertrigoServ\www\pakistanplacements\protected\views\employer\post_job.php (19)
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php (15)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 09:11:17 [error] [exception.CException] exception 'CException' with message 'CCaptchaValidator.action "captcha" is invalid. Unable to find such an action in the current controller.' in D:\VertrigoServ\www\pakistanplacements\yii\validators\CCaptchaValidator.php:77
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\validators\CCaptchaValidator.php(93): CCaptchaValidator->getCaptchaAction()
+#1 D:\VertrigoServ\www\pakistanplacements\yii\web\widgets\CActiveForm.php(510): CCaptchaValidator->clientValidateAttribute(Object(JobPostForm), 'verifyCode')
+#2 D:\VertrigoServ\www\pakistanplacements\protected\views\employer\post_job.php(61): CActiveForm->error(Object(JobPostForm), 'verifyCode')
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\CBaseController.php(126): require('D:\VertrigoServ...')
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CBaseController.php(95): CBaseController->renderInternal('D:\VertrigoServ...', Array, true)
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(869): CBaseController->renderFile('D:\VertrigoServ...', Array, true)
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(782): CController->renderPartial('post_job', Array, true)
+#7 D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php(15): CController->render('post_job', Array)
+#8 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): EmployerController->actionPostJob()
+#9 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): CController->run('postjob')
+#13 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController('employer/postjo...')
+#14 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\VertrigoServ\www\pakistanplacements\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/pakistanplacements/employer/postjob
+---
+2015/01/31 11:10:10 [error] [exception.CException] exception 'CException' with message 'Property "JobPostForm.$job_type" is not defined.' in D:\VertrigoServ\www\pakistanplacements\yii\base\CComponent.php:130
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\helpers\CHtml.php(2529): CComponent->__get('$job_type')
+#1 D:\VertrigoServ\www\pakistanplacements\yii\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(JobPostForm), '$job_type')
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(JobPostForm), '$job_type', Array)
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(JobPostForm), '$job_type', Array)
+#4 D:\VertrigoServ\www\pakistanplacements\protected\views\employer\post_job.php(95): CActiveForm->textField(Object(JobPostForm), '$job_type')
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CBaseController.php(126): require('D:\VertrigoServ...')
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\CBaseController.php(95): CBaseController->renderInternal('D:\VertrigoServ...', Array, true)
+#7 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(869): CBaseController->renderFile('D:\VertrigoServ...', Array, true)
+#8 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(782): CController->renderPartial('post_job', Array, true)
+#9 D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php(15): CController->render('post_job', Array)
+#10 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): EmployerController->actionPostJob()
+#11 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): CController->run('postjob')
+#15 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController('employer/postjo...')
+#16 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#17 D:\VertrigoServ\www\pakistanplacements\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/pakistanplacements/employer/postjob
+---
+2015/01/31 11:30:16 [error] [exception.CException] exception 'CException' with message 'PostJob and its behaviors do not have a method or closure named "getMininumSalaries".' in D:\VertrigoServ\www\pakistanplacements\yii\base\CComponent.php:266
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php(15): CComponent->__call('getMininumSalar...', Array)
+#1 D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php(15): PostJob->getMininumSalaries()
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): EmployerController->actionPostJob()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): CController->run('postjob')
+#7 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController('employer/postjo...')
+#8 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\VertrigoServ\www\pakistanplacements\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/pakistanplacements/employer/postjob
+---
+2015/01/31 13:46:01 [error] [php] include(Location.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\VertrigoServ\www\pakistanplacements\yii\YiiBase.php:427)
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php(384): spl_autoload_call()
+#1 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): EmployerController->actionIndex()
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): EmployerController->runAction()
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): EmployerController->runActionWithFilters()
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): EmployerController->run()
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\VertrigoServ\www\pakistanplacements\index.php(13): CWebApplication->run()
+REQUEST_URI=/pakistanplacements/employer
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php (384)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 14:05:17 [error] [php] include(Location.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\VertrigoServ\www\pakistanplacements\yii\YiiBase.php:427)
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php(384): spl_autoload_call()
+#1 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): EmployerController->actionIndex()
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): EmployerController->runAction()
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): EmployerController->runActionWithFilters()
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): EmployerController->run()
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\VertrigoServ\www\pakistanplacements\index.php(13): CWebApplication->run()
+REQUEST_URI=/pakistanplacements/employer
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php (384)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 14:40:02 [error] [exception.CException] exception 'CException' with message 'Property "Select2.minimumInputLength" is not defined.' in D:\VertrigoServ\www\pakistanplacements\yii\base\CComponent.php:173
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\CWidgetFactory.php(161): CComponent->__set('minimumInputLen...', 3)
+#1 D:\VertrigoServ\www\pakistanplacements\yii\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(EmployerController), 'Select2', Array)
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\CBaseController.php(172): CBaseController->createWidget('Select2', Array)
+#3 D:\VertrigoServ\www\pakistanplacements\protected\views\employer\post_job.php(97): CBaseController->widget('Select2', Array)
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CBaseController.php(126): require('D:\VertrigoServ...')
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CBaseController.php(95): CBaseController->renderInternal('D:\VertrigoServ...', Array, true)
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(869): CBaseController->renderFile('D:\VertrigoServ...', Array, true)
+#7 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(782): CController->renderPartial('post_job', Array, true)
+#8 D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php(42): CController->render('post_job', Array)
+#9 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): EmployerController->actionPostJob()
+#10 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): CController->run('postjob')
+#14 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController('employer/postjo...')
+#15 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\VertrigoServ\www\pakistanplacements\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/pakistanplacements/employer/postjob
+---
+2015/01/31 14:59:37 [warning] [application] Failed to set unsafe attribute "locations" of "Job".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php (33)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 15:18:14 [warning] [application] Failed to set unsafe attribute "locations" of "Job".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php (33)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 15:24:39 [warning] [application] Failed to set unsafe attribute "locations" of "Job".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php (33)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 15:25:32 [warning] [application] Failed to set unsafe attribute "locations" of "Job".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php (33)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 15:25:50 [warning] [application] Failed to set unsafe attribute "locations" of "Job".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php (33)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 15:26:35 [warning] [application] Failed to set unsafe attribute "locations" of "Job".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php (33)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 15:28:19 [warning] [application] Failed to set unsafe attribute "locations" of "Job".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php (33)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 15:28:40 [warning] [application] Failed to set unsafe attribute "locations" of "Job".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php (33)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 15:29:59 [warning] [application] Failed to set unsafe attribute "locations" of "Job".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php (33)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 15:35:29 [warning] [application] Failed to set unsafe attribute "locations" of "Job".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php (33)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 15:37:47 [warning] [application] Failed to set unsafe attribute "locations" of "Job".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php (33)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 15:37:47 [error] [php] A non well formed numeric value encountered (D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php:34)
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): EmployerController->runAction()
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): EmployerController->runActionWithFilters()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): EmployerController->run()
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\VertrigoServ\www\pakistanplacements\index.php(13): CWebApplication->run()
+REQUEST_URI=/pakistanplacements/employer/postjob
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php (34)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 15:38:05 [warning] [application] Failed to set unsafe attribute "locations" of "Job".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php (33)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 15:40:28 [warning] [application] Failed to set unsafe attribute "locations" of "Job".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php (33)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 15:43:03 [warning] [application] Failed to set unsafe attribute "locations" of "Job".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php (33)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 15:43:58 [warning] [application] Failed to set unsafe attribute "locations" of "Job".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php (33)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 15:56:40 [error] [php] Undefined variable: model (D:\VertrigoServ\www\pakistanplacements\protected\views\employer\alljobs.php:18)
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(869): EmployerController->renderFile()
+#1 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(782): EmployerController->renderPartial()
+#2 D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php(81): EmployerController->render()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): EmployerController->actionAllJobs()
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): EmployerController->runAction()
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): EmployerController->runActionWithFilters()
+#7 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): EmployerController->run()
+#8 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\VertrigoServ\www\pakistanplacements\index.php(13): CWebApplication->run()
+REQUEST_URI=/pakistanplacements/employer/alljobs
+in D:\VertrigoServ\www\pakistanplacements\protected\views\employer\alljobs.php (18)
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php (81)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 16:04:07 [error] [exception.CException] exception 'CException' with message 'EmployerController cannot find the requested view "update_job".' in D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php:878
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(782): CController->renderPartial('update_job', Array, true)
+#1 D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php(90): CController->render('update_job', Array)
+#2 [internal function]: EmployerController->actionUpdateJob('5')
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(EmployerController), Array)
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(EmployerController), Object(ReflectionMethod), Array)
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): CController->run('updatejob')
+#9 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController('employer/update...')
+#10 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\VertrigoServ\www\pakistanplacements\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/pakistanplacements/employer/updatejob/5
+HTTP_REFERER=http://localhost/pakistanplacements/employer/alljobs
+---
+2015/01/31 16:20:08 [error] [php] Creating default object from empty value (D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php:118)
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): EmployerController->runAction()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): EmployerController->runActionWithFilters()
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): EmployerController->run()
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\VertrigoServ\www\pakistanplacements\index.php(13): CWebApplication->run()
+REQUEST_URI=/pakistanplacements/employer/updatejob/5
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php (118)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 16:21:41 [error] [php] Undefined variable: job_locations (D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php:145)
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): EmployerController->runAction()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): EmployerController->runActionWithFilters()
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): EmployerController->run()
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\VertrigoServ\www\pakistanplacements\index.php(13): CWebApplication->run()
+REQUEST_URI=/pakistanplacements/employer/updatejob/5
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php (145)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 16:21:57 [error] [php] Undefined variable: job_locations (D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php:145)
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): EmployerController->runAction()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): EmployerController->runActionWithFilters()
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): EmployerController->run()
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\VertrigoServ\www\pakistanplacements\index.php(13): CWebApplication->run()
+REQUEST_URI=/pakistanplacements/employer/updatejob/5
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php (145)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 16:24:20 [error] [php] Undefined variable: job_locations (D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php:170)
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): EmployerController->runAction()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): EmployerController->runActionWithFilters()
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): EmployerController->run()
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\VertrigoServ\www\pakistanplacements\index.php(13): CWebApplication->run()
+REQUEST_URI=/pakistanplacements/employer/updatejob/5
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php (170)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 16:24:45 [error] [php] Undefined variable: job (D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php:129)
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): EmployerController->runAction()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): EmployerController->runActionWithFilters()
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): EmployerController->run()
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\VertrigoServ\www\pakistanplacements\index.php(13): CWebApplication->run()
+REQUEST_URI=/pakistanplacements/employer/updatejob/5
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php (129)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 16:25:15 [error] [php] Undefined variable: job_locations (D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php:170)
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): EmployerController->runAction()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): EmployerController->runActionWithFilters()
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): EmployerController->run()
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\VertrigoServ\www\pakistanplacements\index.php(13): CWebApplication->run()
+REQUEST_URI=/pakistanplacements/employer/updatejob/5
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php (170)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 16:45:46 [error] [exception.CException] exception 'CException' with message 'EmployerController cannot find the requested view "login".' in D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php:878
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php(27): CController->render('login', Array)
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): EmployerController->actionLogin()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): CController->run('login')
+#7 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController('employer/login')
+#8 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\VertrigoServ\www\pakistanplacements\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/pakistanplacements/employer/login
+---
+2015/01/31 16:46:09 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.username" is not defined.' in D:\VertrigoServ\www\pakistanplacements\yii\base\CComponent.php:130
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\helpers\CHtml.php(2529): CComponent->__get('username')
+#1 D:\VertrigoServ\www\pakistanplacements\yii\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(LoginForm), 'username')
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(LoginForm), 'username', Array)
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(LoginForm), 'username', Array)
+#4 D:\VertrigoServ\www\pakistanplacements\protected\views\employer\login.php(29): CActiveForm->textField(Object(LoginForm), 'username')
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CBaseController.php(126): require('D:\VertrigoServ...')
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\CBaseController.php(95): CBaseController->renderInternal('D:\VertrigoServ...', Array, true)
+#7 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(869): CBaseController->renderFile('D:\VertrigoServ...', Array, true)
+#8 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(782): CController->renderPartial('login', Array, true)
+#9 D:\VertrigoServ\www\pakistanplacements\protected\controllers\EmployerController.php(27): CController->render('login', Array)
+#10 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): EmployerController->actionLogin()
+#11 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): CController->run('login')
+#15 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController('employer/login')
+#16 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#17 D:\VertrigoServ\www\pakistanplacements\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/pakistanplacements/employer/login
+---
+2015/01/31 17:08:17 [error] [exception.CException] exception 'CException' with message 'Property "LoginController.userType" is not defined.' in D:\VertrigoServ\www\pakistanplacements\yii\base\CComponent.php:173
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\protected\controllers\LoginController.php(50): CComponent->__set('userType', 'Candidate')
+#1 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): LoginController->actionLogin()
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): CController->run('')
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController('login')
+#7 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\VertrigoServ\www\pakistanplacements\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/pakistanplacements/login
+HTTP_REFERER=http://localhost/pakistanplacements/login
+---
+2015/01/31 17:08:32 [error] [php] include(User.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\VertrigoServ\www\pakistanplacements\yii\YiiBase.php:427)
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\protected\components\UserIdentity.php(33): spl_autoload_call()
+#1 D:\VertrigoServ\www\pakistanplacements\protected\models\common\LoginForm.php(43): UserIdentity->authenticate()
+#2 D:\VertrigoServ\www\pakistanplacements\protected\controllers\LoginController.php(51): LoginForm->login()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): LoginController->actionLogin()
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): LoginController->runAction()
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): LoginController->runActionWithFilters()
+#7 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): LoginController->run()
+#8 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\VertrigoServ\www\pakistanplacements\index.php(13): CWebApplication->run()
+REQUEST_URI=/pakistanplacements/login
+in D:\VertrigoServ\www\pakistanplacements\protected\components\UserIdentity.php (33)
+in D:\VertrigoServ\www\pakistanplacements\protected\models\common\LoginForm.php (43)
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\LoginController.php (51)
+2015/01/31 17:10:01 [error] [php] Creating default object from empty value (D:\VertrigoServ\www\pakistanplacements\protected\controllers\LoginController.php:23)
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): LoginController->runAction()
+#1 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): LoginController->runActionWithFilters()
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): LoginController->run()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\VertrigoServ\www\pakistanplacements\index.php(13): CWebApplication->run()
+REQUEST_URI=/pakistanplacements/login
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\LoginController.php (23)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 17:10:37 [error] [php] Undefined variable: register (D:\VertrigoServ\www\pakistanplacements\protected\controllers\LoginController.php:37)
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): LoginController->runAction()
+#1 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): LoginController->runActionWithFilters()
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): LoginController->run()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\VertrigoServ\www\pakistanplacements\index.php(13): CWebApplication->run()
+REQUEST_URI=/pakistanplacements/login
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\LoginController.php (37)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 19:00:41 [error] [php] include(UploadResumeForm.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\VertrigoServ\www\pakistanplacements\yii\YiiBase.php:427)
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\protected\controllers\CandidateController.php(14): spl_autoload_call()
+#1 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): CandidateController->actionUploadResume()
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): CandidateController->runAction()
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): CandidateController->runActionWithFilters()
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): CandidateController->run()
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\VertrigoServ\www\pakistanplacements\index.php(13): CWebApplication->run()
+REQUEST_URI=/pakistanplacements/candidate/uploadresume
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\CandidateController.php (14)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 19:04:29 [error] [php] Undefined index: UploadResumeForm (D:\VertrigoServ\www\pakistanplacements\protected\controllers\CandidateController.php:17)
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): CandidateController->runAction()
+#1 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): CandidateController->runActionWithFilters()
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): CandidateController->run()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\VertrigoServ\www\pakistanplacements\index.php(13): CWebApplication->run()
+REQUEST_URI=/pakistanplacements/candidate/uploadresume
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\CandidateController.php (17)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 19:04:45 [warning] [application] Failed to set unsafe attribute "cv" of "ResumeUploadForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\CandidateController.php (17)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 19:04:45 [error] [php] Undefined variable: resume_count (D:\VertrigoServ\www\pakistanplacements\protected\models\candidate\ResumeUploadForm.php:28)
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\base\CModel.php(159): CInlineValidator->validate()
+#1 D:\VertrigoServ\www\pakistanplacements\protected\controllers\CandidateController.php(18): ResumeUploadForm->validate()
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): CandidateController->actionUploadResume()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): CandidateController->runAction()
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): CandidateController->runActionWithFilters()
+#6 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): CandidateController->run()
+#7 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\VertrigoServ\www\pakistanplacements\index.php(13): CWebApplication->run()
+REQUEST_URI=/pakistanplacements/candidate/uploadresume
+in D:\VertrigoServ\www\pakistanplacements\protected\models\candidate\ResumeUploadForm.php (28)
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\CandidateController.php (18)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 19:05:08 [warning] [application] Failed to set unsafe attribute "cv" of "ResumeUploadForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\CandidateController.php (17)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 19:09:40 [warning] [application] Failed to set unsafe attribute "cv" of "ResumeUploadForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\CandidateController.php (17)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 19:09:40 [error] [php] move_uploaded_file(upload/candidate012015/181-dandruff.pdf) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory (D:\VertrigoServ\www\pakistanplacements\yii\web\CUploadedFile.php:198)
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): CandidateController->actionUploadResume()
+#1 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): CandidateController->runAction()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): CandidateController->runActionWithFilters()
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): CandidateController->run()
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\VertrigoServ\www\pakistanplacements\index.php(13): CWebApplication->run()
+REQUEST_URI=/pakistanplacements/candidate/uploadresume
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\CandidateController.php (33)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 19:10:37 [warning] [application] Failed to set unsafe attribute "cv" of "ResumeUploadForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\CandidateController.php (17)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 19:10:37 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists (D:\VertrigoServ\www\pakistanplacements\protected\controllers\CandidateController.php:28)
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): CandidateController->runAction()
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): CandidateController->runActionWithFilters()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): CandidateController->run()
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\VertrigoServ\www\pakistanplacements\index.php(13): CWebApplication->run()
+REQUEST_URI=/pakistanplacements/candidate/uploadresume
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\CandidateController.php (28)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 19:11:57 [warning] [application] Failed to set unsafe attribute "cv" of "ResumeUploadForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\CandidateController.php (17)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 19:11:57 [error] [php] move_uploaded_file(upload/candidate/012015/691-dandruff.pdf/) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Invalid argument (D:\VertrigoServ\www\pakistanplacements\yii\web\CUploadedFile.php:198)
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\actions\CInlineAction.php(49): CandidateController->actionUploadResume()
+#1 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(286): CandidateController->runAction()
+#3 D:\VertrigoServ\www\pakistanplacements\yii\web\CController.php(265): CandidateController->runActionWithFilters()
+#4 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(282): CandidateController->run()
+#5 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\VertrigoServ\www\pakistanplacements\index.php(13): CWebApplication->run()
+REQUEST_URI=/pakistanplacements/candidate/uploadresume
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\CandidateController.php (33)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 19:12:59 [warning] [application] Failed to set unsafe attribute "cv" of "ResumeUploadForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\CandidateController.php (17)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 19:13:25 [warning] [application] Failed to set unsafe attribute "cv" of "ResumeUploadForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\CandidateController.php (17)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 19:14:00 [warning] [application] Failed to set unsafe attribute "cv" of "ResumeUploadForm".
+in D:\VertrigoServ\www\pakistanplacements\protected\controllers\CandidateController.php (17)
+in D:\VertrigoServ\www\pakistanplacements\index.php (13)
+2015/01/31 20:05:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "applicants/id".' in D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController('applicants/id')
+#1 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\VertrigoServ\www\pakistanplacements\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pakistanplacements/applicants/id/5
+HTTP_REFERER=http://localhost/pakistanplacements/employer/alljobs
+---
+2015/01/31 20:06:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "applicants/id".' in D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController('applicants/id')
+#1 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\VertrigoServ\www\pakistanplacements\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pakistanplacements/applicants/id/5
+---
+2015/02/01 13:15:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fonts/lined-icons.woff".' in D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController('css/fonts/lined...')
+#1 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\VertrigoServ\www\pakistanplacements\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pakistanplacements/css/fonts/lined-icons.woff
+HTTP_REFERER=http://localhost/pakistanplacements/css/main.css
+---
+2015/02/01 13:15:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fonts/font-icons.woff".' in D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController('css/fonts/font-...')
+#1 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\VertrigoServ\www\pakistanplacements\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pakistanplacements/css/fonts/font-icons.woff
+HTTP_REFERER=http://localhost/pakistanplacements/css/main.css
+---
+2015/02/01 13:15:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fonts/font-icons.ttf".' in D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController('css/fonts/font-...')
+#1 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\VertrigoServ\www\pakistanplacements\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pakistanplacements/css/fonts/font-icons.ttf
+HTTP_REFERER=http://localhost/pakistanplacements/css/main.css
+---
+2015/02/01 13:15:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fonts/lined-icons.ttf".' in D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\VertrigoServ\www\pakistanplacements\yii\web\CWebApplication.php(141): CWebApplication->runController('css/fonts/lined...')
+#1 D:\VertrigoServ\www\pakistanplacements\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\VertrigoServ\www\pakistanplacements\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pakistanplacements/css/fonts/lined-icons.ttf
+HTTP_REFERER=http://localhost/pakistanplacements/css/main.css
+---

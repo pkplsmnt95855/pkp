@@ -1,70 +1,74 @@
 <?php
 
 /**
- * This is the model class for table "user".
+ * This is the model class for table "candidate".
  *
- * The followings are the available columns in table 'user':
+ * The followings are the available columns in table 'candidate':
  * @property integer $id
  * @property string $email
  * @property string $password
- * @property string $facebook_id
- * @property string $linkedin_id
- * @property string $google_id
- * @property string $status
+ * @property string $firstname
+ * @property string $lastname
  * @property string $activation_key
  * @property string $reset_key
+ * @property string $status
  * @property string $role
  */
-class User extends CActiveRecord {
+class Candidate extends CActiveRecord {
 
     /**
      * @return string the associated database table name
      */
-    public function tableName() {
-        return 'user';
+    public function tableName()
+    {
+        return 'candidate';
     }
 
     /**
      * @return array validation rules for model attributes.
      */
-    public function rules() {
+    public function rules()
+    {
         // NOTE: you should only define rules for those attributes that
         // will receive user inputs.
         return array(
-            array('email, password, status, role', 'required'),
-            array('email, password, facebook_id, linkedin_id, google_id, activation_key, reset_key', 'length', 'max' => 255),
+            array('email, password, firstname, lastname', 'required'),
+            array('email, password, firstname, lastname, activation_key, reset_key', 'length', 'max' => 255),
             array('status', 'length', 'max' => 8),
-            array('role', 'length', 'max' => 6),
+            array('role', 'length', 'max' => 9),
             // The following rule is used by search().
             // @todo Please remove those attributes that should not be searched.
-            array('id, email, password, facebook_id, linkedin_id, google_id, status, activation_key, reset_key, role', 'safe', 'on' => 'search'),
+            array('id, email, password, firstname, lastname, activation_key, reset_key, status, role', 'safe', 'on' => 'search'),
         );
     }
 
     /**
      * @return array relational rules.
      */
-    public function relations() {
+    public function relations()
+    {
         // NOTE: you may need to adjust the relation name and the related
         // class name for the relations automatically generated below.
         return array(
+            'candidateResumes' => array(self::HAS_MANY, 'CandidateResume', 'candidate_id'),
+            'jobApplications' => array(self::HAS_MANY, 'JobApplication', 'candidate_id'),
         );
     }
 
     /**
      * @return array customized attribute labels (name=>label)
      */
-    public function attributeLabels() {
+    public function attributeLabels()
+    {
         return array(
             'id' => 'ID',
             'email' => 'Email',
             'password' => 'Password',
-            'facebook_id' => 'Facebook',
-            'linkedin_id' => 'Linkedin',
-            'google_id' => 'Google',
-            'status' => 'Status',
+            'firstname' => 'First Name',
+            'lastname' => 'Last Name',
             'activation_key' => 'Activation Key',
             'reset_key' => 'Reset Key',
+            'status' => 'Status',
             'role' => 'Role',
         );
     }
@@ -81,7 +85,8 @@ class User extends CActiveRecord {
      * @return CActiveDataProvider the data provider that can return the models
      * based on the search/filter conditions.
      */
-    public function search() {
+    public function search()
+    {
         // @todo Please modify the following code to remove attributes that should not be searched.
 
         $criteria = new CDbCriteria;
@@ -89,12 +94,11 @@ class User extends CActiveRecord {
         $criteria->compare('id', $this->id);
         $criteria->compare('email', $this->email, true);
         $criteria->compare('password', $this->password, true);
-        $criteria->compare('facebook_id', $this->facebook_id, true);
-        $criteria->compare('linkedin_id', $this->linkedin_id, true);
-        $criteria->compare('google_id', $this->google_id, true);
-        $criteria->compare('status', $this->status, true);
+        $criteria->compare('firstname', $this->firstname, true);
+        $criteria->compare('lastname', $this->lastname, true);
         $criteria->compare('activation_key', $this->activation_key, true);
         $criteria->compare('reset_key', $this->reset_key, true);
+        $criteria->compare('status', $this->status, true);
         $criteria->compare('role', $this->role, true);
 
         return new CActiveDataProvider($this, array(
@@ -106,9 +110,10 @@ class User extends CActiveRecord {
      * Returns the static model of the specified AR class.
      * Please note that you should have this exact method in all your CActiveRecord descendants!
      * @param string $className active record class name.
-     * @return User the static model class
+     * @return Candidate the static model class
      */
-    public static function model($className = __CLASS__) {
+    public static function model($className = __CLASS__)
+    {
         return parent::model($className);
     }
 

@@ -5,6 +5,7 @@ class UserIdentity extends CUserIdentity {
     private $_id;
     public $email;
     public $password;
+    public $userType;
 
     const ERROR_NONE = 0;
     const ERROR_USERNAME_INVALID = 1;
@@ -13,15 +14,30 @@ class UserIdentity extends CUserIdentity {
     const ERROR_INACTIVE_ACCOUNT = 3;
     const ERROR_BLOCKED_ACCOUNT = 4;
 
+    public function __construct($username, $password, $userType)
+    {
+        $this->username = $username;
+        $this->password = $password;
+        $this->userType = $userType;
+        parent::__construct($username, $password);
+    }
+
     public function authenticate($social = false)
     {
 
+        switch ($this->userType) {
+            case 'Employer':
+                $user = Employer::model()->findByAttributes(array("email" => $this->username));
+                break;
+            case 'Candidate':
+                $user = Candidate::model()->findByAttributes(array("email" => $this->username));
+                break;
+            default :
+                break;
+        }
 
         if ($social)
         {
-
-            $user = User::model()->findByAttributes(array("email" => $this->username));
-
             if ($user)
             {
                 $this->_id = $user->id;
@@ -33,8 +49,6 @@ class UserIdentity extends CUserIdentity {
             }
         } else
         {
-            $user = User::model()->findByAttributes(array("email" => $this->username));
-
             if ($user)
             {
                 if (!CPasswordHelper::verifyPassword($this->password, $user->password))
@@ -49,11 +63,9 @@ class UserIdentity extends CUserIdentity {
                 }
             } else
             {
-
                 $this->errorCode = self::ERROR_USERNAME_INVALID;
             }
         }
-
         return !$this->errorCode;
     }
 

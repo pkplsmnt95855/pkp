@@ -11,6 +11,11 @@ class Commons extends CApplicationComponent {
     public function getEmailConfiguration() {
         
     }
+    
+    public function getEmailServices()
+    {
+        return array('gmail.com','hotmail.com','yahoo.com');
+    }
 
     public function sendPlainEmail($to, $subject, $body) {
         
@@ -25,7 +30,7 @@ class Commons extends CApplicationComponent {
         $mail->Password = "665544069";
         $mail->Port = 465;
         $mail->IsHTML(true);
-        $mail->SetFrom('hammadhere7@gmail.com', 'Resume Market');
+        $mail->SetFrom('hammadhere7@gmail.com', 'Pakistan Placement');
         $mail->Subject = $subject;
         $mail->Body = $body;
         $mail->AddAddress($to);

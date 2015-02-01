@@ -1,45 +1,49 @@
 <?php
 
+/**
+ * UserIdentity represents the data needed to identity a user.
+ * It contains the authentication method that checks if the provided
+ * data can identity the user.
+ */
 class UserIdentity extends CUserIdentity {
 
     private $_id;
     public $email;
     public $password;
 
-    const ERROR_NONE = 0;
-    const ERROR_USERNAME_INVALID = 1;
-    const ERROR_PASSWORD_INVALID = 2;
-    const ERROR_UNKNOWN_IDENTITY = 100;
-    const ERROR_INACTIVE_ACCOUNT = 3;
-    const ERROR_BLOCKED_ACCOUNT = 4;
+    /**
+     * Authenticates a user.
+     * The example implementation makes sure if the email and password
+     * are both 'demo'.
+     * In practical applications, this should be changed to authenticate
+     * against some persistent user identity storage (e.g. database).
+     * @return boolean whether authentication succeeds.
+     */
+    public function authenticate()
+    {
+        echo "tesdfsdst";exit;
 
-    public function authenticate($social = false) {
+        $user = User::model()->findByAttributes(array("email" => $this->email, "password" => $this->password));
 
-     
-        
-        if ($social) {
-            
-        } else {
-            $user = User::model()->findByAttributes(array("email" => $this->email, "password" => $this->password));
-
-            if ($user) {
-                if ($user->status == 'Inactive')
-                    $this->errorCode = self::ERROR_INACTIVE_ACCOUNT;
-                else {
-                    $this->_id = $user->id;
-                    $this->setState('roles', $user->role);
-                    $this->errorCode = self::ERROR_NONE;
-                }
-            } else {
-
-                $this->errorCode = self::ERROR_USERNAME_INVALID;
+        if ($employer)
+        {
+            if ($employer->status == 'Inactive')
+            {
+                $this->errorCode = self::ERROR_INACTIVE_ACCOUNT;
+                
+            } else
+            {
+                $this->_id = $employer->id;
+                $this->errorCode = self::ERROR_NONE;
             }
-        }
+        } else
+            $this->errorCode = self::ERROR_USERNAME_INVALID;
 
         return !$this->errorCode;
     }
 
-    public function getId() {
+    public function getId()
+    {
         return $this->_id;
     }
 
